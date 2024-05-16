@@ -1,0 +1,21 @@
+Evaluation results for dt:
+Best Parameters: OrderedDict([('max_depth', 29), ('min_samples_leaf', 1), ('min_samples_split', 2)])
+Validation Mean Score: 0.8562
+Accuracy: 0.8292, Precision: 0.8296, Recall: 0.8292, F1 Score: 0.8288
+              precision    recall  f1-score   support
+
+           0       0.86      0.77      0.81        73
+           1       0.77      0.76      0.76       100
+           2       0.91      0.93      0.92       109
+           3       0.78      0.80      0.79        85
+           4       0.82      0.87      0.84        78
+
+    accuracy                           0.83       445
+   macro avg       0.83      0.83      0.83       445
+weighted avg       0.83      0.83      0.83       445
+
+[[ 56   4   4   4   5]
+ [  2  76   3  11   8]
+ [  3   2 101   3   0]
+ [  3  11   1  68   2]
+ [  1   6   2   1  68]]

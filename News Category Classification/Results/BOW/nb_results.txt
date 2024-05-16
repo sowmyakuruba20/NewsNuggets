@@ -1,0 +1,21 @@
+Evaluation results for nb:
+Best Parameters: OrderedDict([('alpha', 0.04805745480148591)])
+Validation Mean Score: 0.9798
+Accuracy: 0.9708, Precision: 0.9728, Recall: 0.9708, F1 Score: 0.9708
+              precision    recall  f1-score   support
+
+           0       1.00      0.95      0.97        73
+           1       1.00      0.92      0.96       100
+           2       1.00      1.00      1.00       109
+           3       0.92      0.99      0.95        85
+           4       0.93      1.00      0.96        78
+
+    accuracy                           0.97       445
+   macro avg       0.97      0.97      0.97       445
+weighted avg       0.97      0.97      0.97       445
+
+[[ 69   0   0   2   2]
+ [  0  92   0   5   3]
+ [  0   0 109   0   0]
+ [  0   0   0  84   1]
+ [  0   0   0   0  78]]

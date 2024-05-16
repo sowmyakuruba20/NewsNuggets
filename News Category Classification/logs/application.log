@@ -1,0 +1,46 @@
+2024-05-11 16:21:54,129 - INFO - Main process started
+2024-05-11 16:21:54,183 - INFO - Data loaded successfully from /Users/anithabalachandran/Data Analytics/Third sem/Data 240/Project_NewsNuggets/Category_Classification/Dataset/compiled_news_data.csv
+2024-05-11 16:21:54,183 - INFO - Data loaded successfully
+2024-05-11 16:21:56,624 - INFO - Data preprocessing completed and saved to CSV files
+2024-05-11 16:21:56,627 - INFO - Fitting and transforming text data to TF-IDF vectors.
+2024-05-11 16:21:56,797 - INFO - Vectorizer model saved as tfidf_vectorizer.pkl.
+2024-05-11 16:21:56,797 - INFO - TF-IDF vectorization completed.
+2024-05-11 16:21:56,800 - INFO - Vectorizer model saved as tfidf_vectorizer.pkl.
+2024-05-11 16:21:56,800 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-11 16:21:56,800 - INFO - Fitting and transforming text data to Bag of Words (BoW) vectors.
+2024-05-11 16:21:56,960 - INFO - Vectorizer model saved as bow_vectorizer.pkl.
+2024-05-11 16:21:56,960 - INFO - Bag of Words (BoW) vectorization completed.
+2024-05-11 16:21:56,962 - INFO - Vectorizer model saved as bow_vectorizer.pkl.
+2024-05-11 16:21:56,962 - INFO - Bag of Words (BoW) vectorization completed
+2024-05-11 16:21:56,962 - INFO - Vectorization completed
+2024-05-11 16:21:56,962 - INFO - Training LR model with Bayesian optimization...
+2024-05-11 16:22:21,897 - INFO - Training completed with Bayesian optimization.
+2024-05-11 16:22:21,897 - INFO - Best parameters for lr: OrderedDict([('C', 5.571735857108956), ('max_iter', 112), ('penalty', 'l2'), ('solver', 'liblinear')])
+2024-05-11 16:22:21,902 - INFO - Training DT model with Bayesian optimization...
+2024-05-11 16:22:39,861 - INFO - Training completed with Bayesian optimization.
+2024-05-11 16:22:39,862 - INFO - Best parameters for dt: OrderedDict([('max_depth', 27), ('min_samples_leaf', 1), ('min_samples_split', 2)])
+2024-05-11 16:22:39,867 - INFO - Training RF model with Bayesian optimization...
+2024-05-11 16:23:18,603 - INFO - Training completed with Bayesian optimization.
+2024-05-11 16:23:18,604 - INFO - Best parameters for rf: OrderedDict([('max_depth', 37), ('min_samples_leaf', 1), ('min_samples_split', 10), ('n_estimators', 200)])
+2024-05-11 16:23:18,638 - INFO - Training AB model with Bayesian optimization...
+2024-05-11 16:29:42,090 - INFO - Training completed with Bayesian optimization.
+2024-05-11 16:29:42,092 - INFO - Best parameters for ab: OrderedDict([('learning_rate', 0.980121548833967), ('n_estimators', 200)])
+2024-05-11 16:29:42,191 - INFO - Training NB model with Bayesian optimization...
+2024-05-11 16:29:52,152 - INFO - Training completed with Bayesian optimization.
+2024-05-11 16:29:52,152 - INFO - Best parameters for nb: OrderedDict([('alpha', 0.026471042883250778)])
+2024-05-11 16:29:52,177 - INFO - Training LR model with Bayesian optimization...
+2024-05-11 16:30:23,160 - INFO - Training completed with Bayesian optimization.
+2024-05-11 16:30:23,161 - INFO - Best parameters for lr: OrderedDict([('C', 2.195130360713438), ('max_iter', 103), ('penalty', 'l2'), ('solver', 'liblinear')])
+2024-05-11 16:30:23,167 - INFO - Training DT model with Bayesian optimization...
+2024-05-11 16:30:37,724 - INFO - Training completed with Bayesian optimization.
+2024-05-11 16:30:37,725 - INFO - Best parameters for dt: OrderedDict([('max_depth', 29), ('min_samples_leaf', 1), ('min_samples_split', 2)])
+2024-05-11 16:30:37,728 - INFO - Training RF model with Bayesian optimization...
+2024-05-11 16:31:15,685 - INFO - Training completed with Bayesian optimization.
+2024-05-11 16:31:15,686 - INFO - Best parameters for rf: OrderedDict([('max_depth', 50), ('min_samples_leaf', 1), ('min_samples_split', 6), ('n_estimators', 199)])
+2024-05-11 16:31:15,726 - INFO - Training AB model with Bayesian optimization...
+2024-05-11 16:35:31,120 - INFO - Training completed with Bayesian optimization.
+2024-05-11 16:35:31,121 - INFO - Best parameters for ab: OrderedDict([('learning_rate', 0.9960489741396211), ('n_estimators', 199)])
+2024-05-11 16:35:31,163 - INFO - Training NB model with Bayesian optimization...
+2024-05-11 16:35:38,414 - INFO - Training completed with Bayesian optimization.
+2024-05-11 16:35:38,414 - INFO - Best parameters for nb: OrderedDict([('alpha', 0.04805745480148591)])
+2024-05-11 16:35:38,420 - INFO - BoW models trained and evaluated successfully

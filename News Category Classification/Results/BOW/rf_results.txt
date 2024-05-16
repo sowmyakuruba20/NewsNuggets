@@ -1,0 +1,21 @@
+Evaluation results for rf:
+Best Parameters: OrderedDict([('max_depth', 50), ('min_samples_leaf', 1), ('min_samples_split', 6), ('n_estimators', 199)])
+Validation Mean Score: 0.9669
+Accuracy: 0.9640, Precision: 0.9646, Recall: 0.9640, F1 Score: 0.9640
+              precision    recall  f1-score   support
+
+           0       1.00      0.96      0.98        73
+           1       0.92      0.96      0.94       100
+           2       0.98      1.00      0.99       109
+           3       0.96      0.92      0.94        85
+           4       0.96      0.97      0.97        78
+
+    accuracy                           0.96       445
+   macro avg       0.97      0.96      0.96       445
+weighted avg       0.96      0.96      0.96       445
+
+[[ 70   2   0   1   0]
+ [  0  96   0   2   2]
+ [  0   0 109   0   0]
+ [  0   4   2  78   1]
+ [  0   2   0   0  76]]

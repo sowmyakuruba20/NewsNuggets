@@ -1,0 +1,21 @@
+Evaluation results for ab:
+Best Parameters: OrderedDict([('learning_rate', 0.980121548833967), ('n_estimators', 200)])
+Validation Mean Score: 0.9197
+Accuracy: 0.9169, Precision: 0.9196, Recall: 0.9169, F1 Score: 0.9174
+              precision    recall  f1-score   support
+
+           0       0.94      0.92      0.93        73
+           1       0.83      0.92      0.87       100
+           2       0.97      0.95      0.96       109
+           3       0.93      0.87      0.90        85
+           4       0.93      0.91      0.92        78
+
+    accuracy                           0.92       445
+   macro avg       0.92      0.91      0.92       445
+weighted avg       0.92      0.92      0.92       445
+
+[[ 67   4   1   1   0]
+ [  0  92   0   5   3]
+ [  1   4 104   0   0]
+ [  1   6   2  74   2]
+ [  2   5   0   0  71]]

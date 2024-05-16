@@ -1,0 +1,21 @@
+Evaluation results for lr:
+Best Parameters: OrderedDict([('C', 2.195130360713438), ('max_iter', 103), ('penalty', 'l2'), ('solver', 'liblinear')])
+Validation Mean Score: 0.9742
+Accuracy: 0.9663, Precision: 0.9663, Recall: 0.9663, F1 Score: 0.9662
+              precision    recall  f1-score   support
+
+           0       0.96      0.97      0.97        73
+           1       0.96      0.97      0.97       100
+           2       0.97      1.00      0.99       109
+           3       0.95      0.93      0.94        85
+           4       0.99      0.95      0.97        78
+
+    accuracy                           0.97       445
+   macro avg       0.97      0.96      0.97       445
+weighted avg       0.97      0.97      0.97       445
+
+[[ 71   0   0   2   0]
+ [  0  97   0   2   1]
+ [  0   0 109   0   0]
+ [  1   3   2  79   0]
+ [  2   1   1   0  74]]
