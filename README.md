@@ -45,6 +45,7 @@ The summarization models were evaluated using the ROUGE and BLEU metrics, which 
 ## Deployment
 
 As part of the deployment process, the best classification and summarization models have been integrated into the “NewsNuggets” application. This application enables users to input news articles, which are then preprocessed, vectorized, and analyzed to provide results that are categorized, sentiment-analyzed, and summarized. For the user interface, HTML5 and CSS were employed to create a responsive and intuitive design, and the backend functionality was managed through a Flask application server.
+![app](images/app.png)
 
 ## Discussion
 
@@ -60,5 +61,5 @@ At "NewsNuggets," we tackled the problem of information overload in digital news
 
 ## Dataset Source
 
-- BBC News Dataset
-- News Sentiment Dataset
+- [BBC News Dataset](http://mlg.ucd.ie/datasets/bbc.html)
+- [News Sentiment Dataset](https://www.kaggle.com/datasets/hoshi7/news-sentiment-dataset)
