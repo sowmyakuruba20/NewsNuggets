@@ -9,7 +9,7 @@ Today's rapid information flow makes staying updated with news a formidable task
 **Data Preprocessing:** 
 This initial stage involves examining the data to understand its characteristics and underlying patterns. Text preprocessing is a critical component of the process, which includes several key steps: tokenization to break down text into smaller parts, removal of URLs and punctuation to clean the text, conversion of all text to lowercase to maintain consistency, and removal of stopwords to eliminate unnecessary words. Additionally, lemmatization is performed to reduce words to their base or root form, further refining the textual data. For text vectorization, techniques such as Bag of Words (BoW) and Term Frequency-Inverse Document Frequency (TF-IDF) are employed to convert text into a numerical format that can be processed by machine learning models. The data is split into training and testing sets (80-20 split). There is an imbalance in the news sentiment dataset, with most of the documents having a positive sentiment. To address this, the Synthetic Minority Over-sampling Technique (SMOTE) is applied on the training set to balance the dataset effectively.
 
-![Data Preprocessing Workflow](images/methodology.png)
+![Data Preprocessing Workflow](images/workflow.png)
 
 ## Model Details and Training
 
