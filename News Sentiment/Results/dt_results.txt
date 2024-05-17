@@ -1,0 +1,304 @@
+Evaluation results for dt:
+Hyperparameter Tuning Results for dt:
+Parameters, Mean Test Score, Rank
+{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2}, 0.8239, 5
+{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5}, 0.8279, 2
+{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 10}, 0.8138, 12
+{'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2}, 0.8099, 16
+{'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 5}, 0.8216, 7
+{'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 10}, 0.8263, 4
+{'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 2}, 0.8107, 14
+{'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 5}, 0.8052, 20
+{'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 10}, 0.8052, 19
+{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2}, 0.8075, 18
+{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 5}, 0.8106, 15
+{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 10}, 0.7989, 25
+{'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 2}, 0.8099, 17
+{'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 5}, 0.8036, 22
+{'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 10}, 0.8020, 23
+{'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 2}, 0.7942, 27
+{'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 5}, 0.7981, 26
+{'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 10}, 0.8044, 21
+{'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2}, 0.8232, 6
+{'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 5}, 0.8294, 1
+{'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 10}, 0.8216, 8
+{'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 2}, 0.8263, 3
+{'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 5}, 0.8169, 9
+{'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 10}, 0.8153, 11
+{'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 2}, 0.8005, 24
+{'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 5}, 0.8169, 10
+{'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 10}, 0.8130, 13
+Accuracy: 0.8406, Precision: 0.8407, Recall: 0.8406, F1 Score: 0.8406
+              precision    recall  f1-score   support
+
+         0.0       0.85      0.83      0.84       160
+         1.0       0.83      0.85      0.84       160
+
+    accuracy                           0.84       320
+   macro avg       0.84      0.84      0.84       320
+weighted avg       0.84      0.84      0.84       320
+
+[[133  27]
+ [ 24 136]]
+Evaluation results for dt:
+Hyperparameter Tuning Results for dt:
+Parameters, Mean Test Score, Rank
+{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2}, 0.8560, 2
+{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5}, 0.8435, 9
+{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 10}, 0.8592, 1
+{'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2}, 0.8435, 11
+{'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 5}, 0.8412, 12
+{'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 10}, 0.8474, 4
+{'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 2}, 0.8224, 21
+{'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 5}, 0.8193, 24
+{'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 10}, 0.8193, 23
+{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2}, 0.8333, 15
+{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 5}, 0.8326, 16
+{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 10}, 0.8318, 17
+{'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 2}, 0.8357, 14
+{'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 5}, 0.8357, 13
+{'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 10}, 0.8271, 18
+{'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 2}, 0.8091, 27
+{'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 5}, 0.8107, 26
+{'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 10}, 0.8193, 22
+{'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2}, 0.8474, 3
+{'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 5}, 0.8451, 7
+{'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 10}, 0.8467, 5
+{'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 2}, 0.8443, 8
+{'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 5}, 0.8435, 10
+{'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 10}, 0.8451, 6
+{'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 2}, 0.8240, 20
+{'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 5}, 0.8177, 25
+{'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 10}, 0.8255, 19
+Accuracy: 0.8406, Precision: 0.8407, Recall: 0.8406, F1 Score: 0.8406
+              precision    recall  f1-score   support
+
+         0.0       0.83      0.85      0.84       160
+         1.0       0.85      0.83      0.84       160
+
+    accuracy                           0.84       320
+   macro avg       0.84      0.84      0.84       320
+weighted avg       0.84      0.84      0.84       320
+
+[[136  24]
+ [ 27 133]]
+Evaluation results for dt:
+Hyperparameter Tuning Results for dt:
+Parameters, Mean Test Score, Rank
+{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2}, 0.8208, 5
+{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5}, 0.8216, 4
+{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 10}, 0.8193, 7
+{'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2}, 0.8295, 1
+{'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 5}, 0.8255, 2
+{'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 10}, 0.8240, 3
+{'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 2}, 0.8044, 23
+{'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 5}, 0.8052, 21
+{'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 10}, 0.8107, 14
+{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2}, 0.8036, 25
+{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 5}, 0.8067, 19
+{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 10}, 0.8091, 16
+{'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 2}, 0.8036, 24
+{'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 5}, 0.8130, 12
+{'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 10}, 0.8044, 22
+{'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 2}, 0.7934, 27
+{'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 5}, 0.7989, 26
+{'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 10}, 0.8067, 19
+{'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2}, 0.8177, 8
+{'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 5}, 0.8193, 6
+{'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 10}, 0.8153, 11
+{'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 2}, 0.8122, 13
+{'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 5}, 0.8161, 10
+{'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 10}, 0.8169, 9
+{'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 2}, 0.8075, 18
+{'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 5}, 0.8075, 17
+{'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 10}, 0.8091, 15
+Accuracy: 0.8656, Precision: 0.8674, Recall: 0.8656, F1 Score: 0.8655
+              precision    recall  f1-score   support
+
+         0.0       0.84      0.90      0.87       160
+         1.0       0.89      0.83      0.86       160
+
+    accuracy                           0.87       320
+   macro avg       0.87      0.87      0.87       320
+weighted avg       0.87      0.87      0.87       320
+
+[[144  16]
+ [ 27 133]]
+Evaluation results for dt:
+Hyperparameter Tuning Results for dt:
+Parameters, Mean Test Score, Rank
+{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2}, 0.8200, 8
+{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5}, 0.8295, 2
+{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 10}, 0.8247, 4
+{'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2}, 0.8263, 3
+{'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 5}, 0.8224, 5
+{'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 10}, 0.8161, 9
+{'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 2}, 0.8013, 22
+{'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 5}, 0.7981, 26
+{'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 10}, 0.8083, 15
+{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2}, 0.8107, 14
+{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 5}, 0.8067, 17
+{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 10}, 0.8146, 11
+{'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 2}, 0.8075, 16
+{'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 5}, 0.8020, 21
+{'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 10}, 0.8060, 19
+{'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 2}, 0.7989, 25
+{'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 5}, 0.8005, 24
+{'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 10}, 0.7974, 27
+{'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2}, 0.8302, 1
+{'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 5}, 0.8216, 6
+{'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 10}, 0.8107, 13
+{'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 2}, 0.8130, 12
+{'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 5}, 0.8208, 7
+{'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 10}, 0.8146, 10
+{'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 2}, 0.8005, 23
+{'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 5}, 0.8060, 18
+{'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 10}, 0.8059, 20
+Accuracy: 0.8406, Precision: 0.8407, Recall: 0.8406, F1 Score: 0.8406
+              precision    recall  f1-score   support
+
+         0.0       0.83      0.85      0.84       160
+         1.0       0.85      0.83      0.84       160
+
+    accuracy                           0.84       320
+   macro avg       0.84      0.84      0.84       320
+weighted avg       0.84      0.84      0.84       320
+
+[[136  24]
+ [ 27 133]]
+Evaluation results for dt:
+Hyperparameter Tuning Results for dt:
+Parameters, Mean Test Score, Rank
+{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2}, 0.8506, 3
+{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5}, 0.8435, 8
+{'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 10}, 0.8584, 1
+{'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2}, 0.8443, 7
+{'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 5}, 0.8381, 11
+{'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 10}, 0.8474, 4
+{'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 2}, 0.8208, 21
+{'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 5}, 0.8138, 24
+{'max_depth': None, 'min_samples_leaf': 4, 'min_samples_split': 10}, 0.8216, 20
+{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 2}, 0.8334, 15
+{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 5}, 0.8357, 14
+{'max_depth': 10, 'min_samples_leaf': 1, 'min_samples_split': 10}, 0.8380, 13
+{'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 2}, 0.8326, 16
+{'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 5}, 0.8279, 19
+{'max_depth': 10, 'min_samples_leaf': 2, 'min_samples_split': 10}, 0.8287, 18
+{'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 2}, 0.8075, 27
+{'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 5}, 0.8114, 26
+{'max_depth': 10, 'min_samples_leaf': 4, 'min_samples_split': 10}, 0.8201, 22
+{'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2}, 0.8514, 2
+{'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 5}, 0.8474, 5
+{'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 10}, 0.8412, 9
+{'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 2}, 0.8380, 12
+{'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 5}, 0.8474, 5
+{'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 10}, 0.8396, 10
+{'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 2}, 0.8161, 23
+{'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 5}, 0.8130, 25
+{'max_depth': 20, 'min_samples_leaf': 4, 'min_samples_split': 10}, 0.8310, 17
+Accuracy: 0.8438, Precision: 0.8438, Recall: 0.8438, F1 Score: 0.8438
+              precision    recall  f1-score   support
+
+         0.0       0.84      0.84      0.84       160
+         1.0       0.84      0.84      0.84       160
+
+    accuracy                           0.84       320
+   macro avg       0.84      0.84      0.84       320
+weighted avg       0.84      0.84      0.84       320
+
+[[135  25]
+ [ 25 135]]
+Evaluation results for dt:
+Hyperparameter Tuning Results for dt:
+Parameters, Mean Test Score, Rank
+OrderedDict([('max_depth', 42), ('min_samples_leaf', 3), ('min_samples_split', 7)]), 0.8013, 29
+OrderedDict([('max_depth', 15), ('min_samples_leaf', 3), ('min_samples_split', 3)]), 0.8020, 27
+OrderedDict([('max_depth', 10), ('min_samples_leaf', 2), ('min_samples_split', 9)]), 0.8005, 32
+OrderedDict([('max_depth', 36), ('min_samples_leaf', 4), ('min_samples_split', 3)]), 0.8083, 24
+OrderedDict([('max_depth', 45), ('min_samples_leaf', 1), ('min_samples_split', 8)]), 0.8193, 15
+OrderedDict([('max_depth', 47), ('min_samples_leaf', 1), ('min_samples_split', 5)]), 0.8138, 21
+OrderedDict([('max_depth', 29), ('min_samples_leaf', 4), ('min_samples_split', 2)]), 0.8068, 25
+OrderedDict([('max_depth', 45), ('min_samples_leaf', 2), ('min_samples_split', 7)]), 0.8161, 18
+OrderedDict([('max_depth', 27), ('min_samples_leaf', 2), ('min_samples_split', 3)]), 0.8177, 16
+OrderedDict([('max_depth', 16), ('min_samples_leaf', 4), ('min_samples_split', 7)]), 0.8005, 31
+OrderedDict([('max_depth', 48), ('min_samples_leaf', 2), ('min_samples_split', 2)]), 0.8146, 20
+OrderedDict([('max_depth', 34), ('min_samples_leaf', 1), ('min_samples_split', 10)]), 0.8232, 7
+OrderedDict([('max_depth', 24), ('min_samples_leaf', 1), ('min_samples_split', 2)]), 0.8255, 4
+OrderedDict([('max_depth', 10), ('min_samples_leaf', 1), ('min_samples_split', 10)]), 0.8020, 28
+OrderedDict([('max_depth', 50), ('min_samples_leaf', 4), ('min_samples_split', 2)]), 0.8114, 22
+OrderedDict([('max_depth', 29), ('min_samples_leaf', 1), ('min_samples_split', 2)]), 0.8201, 11
+OrderedDict([('max_depth', 38), ('min_samples_leaf', 1), ('min_samples_split', 2)]), 0.8271, 1
+OrderedDict([('max_depth', 19), ('min_samples_leaf', 1), ('min_samples_split', 10)]), 0.8232, 8
+OrderedDict([('max_depth', 36), ('min_samples_leaf', 2), ('min_samples_split', 10)]), 0.8247, 5
+OrderedDict([('max_depth', 20), ('min_samples_leaf', 2), ('min_samples_split', 10)]), 0.8193, 14
+OrderedDict([('max_depth', 39), ('min_samples_leaf', 1), ('min_samples_split', 10)]), 0.8200, 13
+OrderedDict([('max_depth', 33), ('min_samples_leaf', 2), ('min_samples_split', 2)]), 0.8200, 12
+OrderedDict([('max_depth', 22), ('min_samples_leaf', 1), ('min_samples_split', 10)]), 0.8224, 10
+OrderedDict([('max_depth', 50), ('min_samples_leaf', 1), ('min_samples_split', 10)]), 0.8271, 2
+OrderedDict([('max_depth', 35), ('min_samples_leaf', 1), ('min_samples_split', 2)]), 0.8107, 23
+OrderedDict([('max_depth', 26), ('min_samples_leaf', 1), ('min_samples_split', 10)]), 0.8240, 6
+OrderedDict([('max_depth', 50), ('min_samples_leaf', 1), ('min_samples_split', 2)]), 0.8169, 17
+OrderedDict([('max_depth', 27), ('min_samples_leaf', 1), ('min_samples_split', 10)]), 0.8154, 19
+OrderedDict([('max_depth', 23), ('min_samples_leaf', 1), ('min_samples_split', 3)]), 0.8224, 9
+OrderedDict([('max_depth', 25), ('min_samples_leaf', 3), ('min_samples_split', 10)]), 0.8013, 29
+OrderedDict([('max_depth', 30), ('min_samples_leaf', 2), ('min_samples_split', 9)]), 0.8263, 3
+OrderedDict([('max_depth', 50), ('min_samples_leaf', 3), ('min_samples_split', 10)]), 0.8044, 26
+Accuracy: 0.8313, Precision: 0.8325, Recall: 0.8313, F1 Score: 0.8311
+              precision    recall  f1-score   support
+
+         0.0       0.81      0.86      0.84       160
+         1.0       0.85      0.80      0.83       160
+
+    accuracy                           0.83       320
+   macro avg       0.83      0.83      0.83       320
+weighted avg       0.83      0.83      0.83       320
+
+[[138  22]
+ [ 32 128]]
+Evaluation results for dt:
+Hyperparameter Tuning Results for dt:
+Parameters, Mean Test Score, Rank
+OrderedDict([('max_depth', 13), ('min_samples_leaf', 3), ('min_samples_split', 5)]), 0.8067, 26
+OrderedDict([('max_depth', 49), ('min_samples_leaf', 1), ('min_samples_split', 9)]), 0.8208, 8
+OrderedDict([('max_depth', 34), ('min_samples_leaf', 2), ('min_samples_split', 4)]), 0.8130, 17
+OrderedDict([('max_depth', 23), ('min_samples_leaf', 3), ('min_samples_split', 7)]), 0.8052, 28
+OrderedDict([('max_depth', 33), ('min_samples_leaf', 3), ('min_samples_split', 9)]), 0.8028, 29
+OrderedDict([('max_depth', 12), ('min_samples_leaf', 2), ('min_samples_split', 7)]), 0.8106, 23
+OrderedDict([('max_depth', 41), ('min_samples_leaf', 2), ('min_samples_split', 9)]), 0.8208, 7
+OrderedDict([('max_depth', 14), ('min_samples_leaf', 2), ('min_samples_split', 5)]), 0.8154, 15
+OrderedDict([('max_depth', 38), ('min_samples_leaf', 3), ('min_samples_split', 9)]), 0.8107, 22
+OrderedDict([('max_depth', 36), ('min_samples_leaf', 2), ('min_samples_split', 5)]), 0.8169, 13
+OrderedDict([('max_depth', 10), ('min_samples_leaf', 1), ('min_samples_split', 2)]), 0.8122, 19
+OrderedDict([('max_depth', 50), ('min_samples_leaf', 1), ('min_samples_split', 2)]), 0.8240, 6
+OrderedDict([('max_depth', 50), ('min_samples_leaf', 2), ('min_samples_split', 2)]), 0.8287, 1
+OrderedDict([('max_depth', 50), ('min_samples_leaf', 4), ('min_samples_split', 2)]), 0.8091, 25
+OrderedDict([('max_depth', 50), ('min_samples_leaf', 2), ('min_samples_split', 10)]), 0.8130, 18
+OrderedDict([('max_depth', 29), ('min_samples_leaf', 1), ('min_samples_split', 10)]), 0.8263, 4
+OrderedDict([('max_depth', 36), ('min_samples_leaf', 1), ('min_samples_split', 2)]), 0.8169, 14
+OrderedDict([('max_depth', 11), ('min_samples_leaf', 1), ('min_samples_split', 10)]), 0.8114, 21
+OrderedDict([('max_depth', 37), ('min_samples_leaf', 1), ('min_samples_split', 10)]), 0.8193, 10
+OrderedDict([('max_depth', 10), ('min_samples_leaf', 4), ('min_samples_split', 2)]), 0.7997, 31
+OrderedDict([('max_depth', 14), ('min_samples_leaf', 4), ('min_samples_split', 4)]), 0.7973, 32
+OrderedDict([('max_depth', 47), ('min_samples_leaf', 2), ('min_samples_split', 7)]), 0.8106, 24
+OrderedDict([('max_depth', 44), ('min_samples_leaf', 3), ('min_samples_split', 4)]), 0.8138, 16
+OrderedDict([('max_depth', 14), ('min_samples_leaf', 4), ('min_samples_split', 5)]), 0.8060, 27
+OrderedDict([('max_depth', 40), ('min_samples_leaf', 4), ('min_samples_split', 10)]), 0.8115, 20
+OrderedDict([('max_depth', 30), ('min_samples_leaf', 4), ('min_samples_split', 7)]), 0.8021, 30
+OrderedDict([('max_depth', 50), ('min_samples_leaf', 1), ('min_samples_split', 4)]), 0.8177, 12
+OrderedDict([('max_depth', 33), ('min_samples_leaf', 1), ('min_samples_split', 3)]), 0.8263, 2
+OrderedDict([('max_depth', 18), ('min_samples_leaf', 1), ('min_samples_split', 3)]), 0.8248, 5
+OrderedDict([('max_depth', 47), ('min_samples_leaf', 1), ('min_samples_split', 7)]), 0.8200, 9
+OrderedDict([('max_depth', 34), ('min_samples_leaf', 2), ('min_samples_split', 4)]), 0.8263, 3
+OrderedDict([('max_depth', 33), ('min_samples_leaf', 2), ('min_samples_split', 6)]), 0.8177, 11
+Accuracy: 0.8719, Precision: 0.8726, Recall: 0.8719, F1 Score: 0.8718
+              precision    recall  f1-score   support
+
+         0.0       0.86      0.89      0.87       160
+         1.0       0.89      0.85      0.87       160
+
+    accuracy                           0.87       320
+   macro avg       0.87      0.87      0.87       320
+weighted avg       0.87      0.87      0.87       320
+
+[[143  17]
+ [ 24 136]]

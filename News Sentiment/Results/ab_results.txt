@@ -1,0 +1,190 @@
+Evaluation results for ab:
+Hyperparameter Tuning Results for ab:
+Parameters, Mean Test Score, Rank
+{'learning_rate': 0.1, 'n_estimators': 50}, 0.7833, 9
+{'learning_rate': 0.1, 'n_estimators': 100}, 0.8029, 8
+{'learning_rate': 0.1, 'n_estimators': 200}, 0.8209, 7
+{'learning_rate': 0.5, 'n_estimators': 50}, 0.8357, 6
+{'learning_rate': 0.5, 'n_estimators': 100}, 0.8553, 5
+{'learning_rate': 0.5, 'n_estimators': 200}, 0.8803, 3
+{'learning_rate': 1.0, 'n_estimators': 50}, 0.8717, 4
+{'learning_rate': 1.0, 'n_estimators': 100}, 0.8889, 2
+{'learning_rate': 1.0, 'n_estimators': 200}, 0.9006, 1
+Accuracy: 0.9094, Precision: 0.9113, Recall: 0.9094, F1 Score: 0.9093
+              precision    recall  f1-score   support
+
+         0.0       0.88      0.94      0.91       160
+         1.0       0.94      0.88      0.91       160
+
+    accuracy                           0.91       320
+   macro avg       0.91      0.91      0.91       320
+weighted avg       0.91      0.91      0.91       320
+
+[[151   9]
+ [ 20 140]]
+Evaluation results for ab:
+Hyperparameter Tuning Results for ab:
+Parameters, Mean Test Score, Rank
+{'learning_rate': 0.1, 'n_estimators': 50}, 0.7747, 9
+{'learning_rate': 0.1, 'n_estimators': 100}, 0.7950, 8
+{'learning_rate': 0.1, 'n_estimators': 200}, 0.8067, 6
+{'learning_rate': 0.5, 'n_estimators': 50}, 0.8067, 7
+{'learning_rate': 0.5, 'n_estimators': 100}, 0.8138, 5
+{'learning_rate': 0.5, 'n_estimators': 200}, 0.8286, 3
+{'learning_rate': 1.0, 'n_estimators': 50}, 0.8169, 4
+{'learning_rate': 1.0, 'n_estimators': 100}, 0.8372, 2
+{'learning_rate': 1.0, 'n_estimators': 200}, 0.8583, 1
+Accuracy: 0.8688, Precision: 0.8690, Recall: 0.8688, F1 Score: 0.8687
+              precision    recall  f1-score   support
+
+         0.0       0.86      0.88      0.87       160
+         1.0       0.88      0.86      0.87       160
+
+    accuracy                           0.87       320
+   macro avg       0.87      0.87      0.87       320
+weighted avg       0.87      0.87      0.87       320
+
+[[141  19]
+ [ 23 137]]
+Evaluation results for ab:
+Hyperparameter Tuning Results for ab:
+Parameters, Mean Test Score, Rank
+{'learning_rate': 0.1, 'n_estimators': 50}, 0.7833, 9
+{'learning_rate': 0.1, 'n_estimators': 100}, 0.8029, 8
+{'learning_rate': 0.1, 'n_estimators': 200}, 0.8209, 7
+{'learning_rate': 0.5, 'n_estimators': 50}, 0.8357, 6
+{'learning_rate': 0.5, 'n_estimators': 100}, 0.8553, 5
+{'learning_rate': 0.5, 'n_estimators': 200}, 0.8795, 3
+{'learning_rate': 1.0, 'n_estimators': 50}, 0.8717, 4
+{'learning_rate': 1.0, 'n_estimators': 100}, 0.8889, 2
+{'learning_rate': 1.0, 'n_estimators': 200}, 0.9006, 1
+Accuracy: 0.9094, Precision: 0.9113, Recall: 0.9094, F1 Score: 0.9093
+              precision    recall  f1-score   support
+
+         0.0       0.88      0.94      0.91       160
+         1.0       0.94      0.88      0.91       160
+
+    accuracy                           0.91       320
+   macro avg       0.91      0.91      0.91       320
+weighted avg       0.91      0.91      0.91       320
+
+[[151   9]
+ [ 20 140]]
+Evaluation results for ab:
+Hyperparameter Tuning Results for ab:
+Parameters, Mean Test Score, Rank
+{'learning_rate': 0.1, 'n_estimators': 50}, 0.7747, 9
+{'learning_rate': 0.1, 'n_estimators': 100}, 0.7950, 8
+{'learning_rate': 0.1, 'n_estimators': 200}, 0.8067, 6
+{'learning_rate': 0.5, 'n_estimators': 50}, 0.8067, 7
+{'learning_rate': 0.5, 'n_estimators': 100}, 0.8138, 5
+{'learning_rate': 0.5, 'n_estimators': 200}, 0.8286, 3
+{'learning_rate': 1.0, 'n_estimators': 50}, 0.8169, 4
+{'learning_rate': 1.0, 'n_estimators': 100}, 0.8372, 2
+{'learning_rate': 1.0, 'n_estimators': 200}, 0.8583, 1
+Accuracy: 0.8688, Precision: 0.8690, Recall: 0.8688, F1 Score: 0.8687
+              precision    recall  f1-score   support
+
+         0.0       0.86      0.88      0.87       160
+         1.0       0.88      0.86      0.87       160
+
+    accuracy                           0.87       320
+   macro avg       0.87      0.87      0.87       320
+weighted avg       0.87      0.87      0.87       320
+
+[[141  19]
+ [ 23 137]]
+Evaluation results for ab:
+Hyperparameter Tuning Results for ab:
+Parameters, Mean Test Score, Rank
+OrderedDict([('learning_rate', 0.2675846593599456), ('n_estimators', 162)]), 0.8443, 22
+OrderedDict([('learning_rate', 0.3785725576683544), ('n_estimators', 130)]), 0.8451, 21
+OrderedDict([('learning_rate', 0.6186118270412123), ('n_estimators', 139)]), 0.8803, 7
+OrderedDict([('learning_rate', 0.3221304009458857), ('n_estimators', 113)]), 0.8412, 23
+OrderedDict([('learning_rate', 0.38625665615557303), ('n_estimators', 143)]), 0.8592, 14
+OrderedDict([('learning_rate', 0.23054874405327663), ('n_estimators', 83)]), 0.8224, 28
+OrderedDict([('learning_rate', 0.5020074743605165), ('n_estimators', 190)]), 0.8811, 6
+OrderedDict([('learning_rate', 0.2182729574584485), ('n_estimators', 145)]), 0.8349, 25
+OrderedDict([('learning_rate', 0.2817332525187419), ('n_estimators', 141)]), 0.8459, 20
+OrderedDict([('learning_rate', 0.5010871118550518), ('n_estimators', 195)]), 0.8834, 4
+OrderedDict([('learning_rate', 1.0), ('n_estimators', 200)]), 0.9014, 2
+OrderedDict([('learning_rate', 1.0), ('n_estimators', 50)]), 0.8717, 10
+OrderedDict([('learning_rate', 0.340890881772179), ('n_estimators', 151)]), 0.8498, 17
+OrderedDict([('learning_rate', 0.45945350045063515), ('n_estimators', 135)]), 0.8568, 15
+OrderedDict([('learning_rate', 0.10833230985898142), ('n_estimators', 159)]), 0.8138, 29
+OrderedDict([('learning_rate', 0.8901822921585038), ('n_estimators', 51)]), 0.8490, 18
+OrderedDict([('learning_rate', 0.6429079239467813), ('n_estimators', 64)]), 0.8506, 16
+OrderedDict([('learning_rate', 0.7612827744176215), ('n_estimators', 101)]), 0.8811, 5
+OrderedDict([('learning_rate', 0.9647784835678603), ('n_estimators', 67)]), 0.8662, 11
+OrderedDict([('learning_rate', 0.268064242883183), ('n_estimators', 86)]), 0.8271, 27
+OrderedDict([('learning_rate', 0.4413511959828607), ('n_estimators', 156)]), 0.8646, 13
+OrderedDict([('learning_rate', 0.1591751218391782), ('n_estimators', 154)]), 0.8295, 26
+OrderedDict([('learning_rate', 0.20472287908645725), ('n_estimators', 75)]), 0.8099, 30
+OrderedDict([('learning_rate', 0.8119795128807802), ('n_estimators', 199)]), 0.9022, 1
+OrderedDict([('learning_rate', 0.4790154225669318), ('n_estimators', 180)]), 0.8646, 12
+OrderedDict([('learning_rate', 0.42203456118424243), ('n_estimators', 187)]), 0.8733, 9
+OrderedDict([('learning_rate', 0.15838832984204287), ('n_estimators', 56)]), 0.8075, 31
+OrderedDict([('learning_rate', 0.10781268732298672), ('n_estimators', 59)]), 0.7950, 32
+OrderedDict([('learning_rate', 0.45551620345642546), ('n_estimators', 184)]), 0.8748, 8
+OrderedDict([('learning_rate', 0.9196397090519581), ('n_estimators', 144)]), 0.8936, 3
+OrderedDict([('learning_rate', 0.5849294885282244), ('n_estimators', 79)]), 0.8474, 19
+OrderedDict([('learning_rate', 0.201334104101517), ('n_estimators', 162)]), 0.8365, 24
+Accuracy: 0.9031, Precision: 0.9050, Recall: 0.9031, F1 Score: 0.9030
+              precision    recall  f1-score   support
+
+         0.0       0.88      0.94      0.91       160
+         1.0       0.93      0.87      0.90       160
+
+    accuracy                           0.90       320
+   macro avg       0.91      0.90      0.90       320
+weighted avg       0.91      0.90      0.90       320
+
+[[150  10]
+ [ 21 139]]
+Evaluation results for ab:
+Hyperparameter Tuning Results for ab:
+Parameters, Mean Test Score, Rank
+OrderedDict([('learning_rate', 0.20890599874232124), ('n_estimators', 161)]), 0.8381, 27
+OrderedDict([('learning_rate', 0.20995950053348825), ('n_estimators', 174)]), 0.8388, 26
+OrderedDict([('learning_rate', 0.47153316916212346), ('n_estimators', 187)]), 0.8842, 22
+OrderedDict([('learning_rate', 0.11244006370606832), ('n_estimators', 197)]), 0.8256, 29
+OrderedDict([('learning_rate', 0.1296743222662636), ('n_estimators', 90)]), 0.8083, 32
+OrderedDict([('learning_rate', 0.5712325384977962), ('n_estimators', 149)]), 0.8827, 23
+OrderedDict([('learning_rate', 0.9304168028177268), ('n_estimators', 97)]), 0.8866, 20
+OrderedDict([('learning_rate', 0.11272866835141461), ('n_estimators', 97)]), 0.8099, 31
+OrderedDict([('learning_rate', 0.10978488026391511), ('n_estimators', 93)]), 0.8115, 30
+OrderedDict([('learning_rate', 0.5934139939859604), ('n_estimators', 135)]), 0.8842, 21
+OrderedDict([('learning_rate', 1.0), ('n_estimators', 200)]), 0.9014, 8
+OrderedDict([('learning_rate', 0.8127842413352833), ('n_estimators', 199)]), 0.8983, 14
+OrderedDict([('learning_rate', 0.997166638711618), ('n_estimators', 199)]), 0.9053, 5
+OrderedDict([('learning_rate', 0.997464237773641), ('n_estimators', 53)]), 0.8670, 25
+OrderedDict([('learning_rate', 1.0), ('n_estimators', 158)]), 0.8920, 19
+OrderedDict([('learning_rate', 0.9989961022873771), ('n_estimators', 199)]), 0.8999, 10
+OrderedDict([('learning_rate', 0.7252569502629576), ('n_estimators', 200)]), 0.9014, 9
+OrderedDict([('learning_rate', 0.4715280100181332), ('n_estimators', 50)]), 0.8365, 28
+OrderedDict([('learning_rate', 0.6755365005813933), ('n_estimators', 200)]), 0.8944, 18
+OrderedDict([('learning_rate', 0.996088171963715), ('n_estimators', 153)]), 0.9053, 2
+OrderedDict([('learning_rate', 0.9950356461985991), ('n_estimators', 198)]), 0.9061, 1
+OrderedDict([('learning_rate', 0.999644858803777), ('n_estimators', 159)]), 0.9022, 6
+OrderedDict([('learning_rate', 0.9968289065334216), ('n_estimators', 197)]), 0.9053, 3
+OrderedDict([('learning_rate', 0.9903665156145478), ('n_estimators', 199)]), 0.8983, 13
+OrderedDict([('learning_rate', 0.9995829554585236), ('n_estimators', 147)]), 0.9014, 7
+OrderedDict([('learning_rate', 0.9952275228907955), ('n_estimators', 199)]), 0.9053, 4
+OrderedDict([('learning_rate', 0.999385159968566), ('n_estimators', 164)]), 0.8944, 17
+OrderedDict([('learning_rate', 0.6499838523795295), ('n_estimators', 200)]), 0.8959, 16
+OrderedDict([('learning_rate', 0.9860528015550851), ('n_estimators', 199)]), 0.8967, 15
+OrderedDict([('learning_rate', 0.9958791179824359), ('n_estimators', 133)]), 0.8983, 12
+OrderedDict([('learning_rate', 0.4369186952338759), ('n_estimators', 200)]), 0.8709, 24
+OrderedDict([('learning_rate', 0.9910334445702371), ('n_estimators', 200)]), 0.8999, 11
+Accuracy: 0.8938, Precision: 0.8960, Recall: 0.8938, F1 Score: 0.8936
+              precision    recall  f1-score   support
+
+         0.0       0.87      0.93      0.90       160
+         1.0       0.93      0.86      0.89       160
+
+    accuracy                           0.89       320
+   macro avg       0.90      0.89      0.89       320
+weighted avg       0.90      0.89      0.89       320
+
+[[149  11]
+ [ 23 137]]

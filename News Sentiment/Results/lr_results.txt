@@ -1,0 +1,229 @@
+Evaluation results for lr:
+Hyperparameter Tuning Results for lr:
+Parameters, Mean Test Score, Rank
+{'C': 0.1, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.9335, 9
+{'C': 0.1, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.9335, 9
+{'C': 0.1, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.9335, 9
+{'C': 0.1, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.9335, 9
+{'C': 1.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.9601, 5
+{'C': 1.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.9593, 7
+{'C': 1.0, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.9601, 5
+{'C': 1.0, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.9593, 7
+{'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.9718, 1
+{'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.9718, 1
+{'C': 10.0, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.9718, 1
+{'C': 10.0, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.9718, 1
+Accuracy: 0.9656, Precision: 0.9656, Recall: 0.9656, F1 Score: 0.9656
+              precision    recall  f1-score   support
+
+         0.0       0.96      0.97      0.97       160
+         1.0       0.97      0.96      0.97       160
+
+    accuracy                           0.97       320
+   macro avg       0.97      0.97      0.97       320
+weighted avg       0.97      0.97      0.97       320
+
+[[155   5]
+ [  6 154]]
+Evaluation results for lr:
+Hyperparameter Tuning Results for lr:
+Parameters, Mean Test Score, Rank
+{'C': 0.1, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.9194, 1
+{'C': 0.1, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.9100, 3
+{'C': 0.1, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.9194, 1
+{'C': 0.1, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.9100, 3
+{'C': 1.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.9084, 5
+{'C': 1.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.9069, 7
+{'C': 1.0, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.9084, 5
+{'C': 1.0, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.9069, 7
+{'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.8951, 11
+{'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.8975, 9
+{'C': 10.0, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.8951, 11
+{'C': 10.0, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.8975, 9
+Accuracy: 0.9219, Precision: 0.9227, Recall: 0.9219, F1 Score: 0.9218
+              precision    recall  f1-score   support
+
+         0.0       0.90      0.94      0.92       160
+         1.0       0.94      0.90      0.92       160
+
+    accuracy                           0.92       320
+   macro avg       0.92      0.92      0.92       320
+weighted avg       0.92      0.92      0.92       320
+
+[[151   9]
+ [ 16 144]]
+Evaluation results for lr:
+Hyperparameter Tuning Results for lr:
+Parameters, Mean Test Score, Rank
+{'C': 0.1, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.9335, 9
+{'C': 0.1, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.9335, 9
+{'C': 0.1, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.9335, 9
+{'C': 0.1, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.9335, 9
+{'C': 1.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.9601, 5
+{'C': 1.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.9593, 7
+{'C': 1.0, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.9601, 5
+{'C': 1.0, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.9593, 7
+{'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.9718, 1
+{'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.9718, 1
+{'C': 10.0, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.9718, 1
+{'C': 10.0, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.9718, 1
+Accuracy: 0.9656, Precision: 0.9656, Recall: 0.9656, F1 Score: 0.9656
+              precision    recall  f1-score   support
+
+         0.0       0.96      0.97      0.97       160
+         1.0       0.97      0.96      0.97       160
+
+    accuracy                           0.97       320
+   macro avg       0.97      0.97      0.97       320
+weighted avg       0.97      0.97      0.97       320
+
+[[155   5]
+ [  6 154]]
+Evaluation results for lr:
+Hyperparameter Tuning Results for lr:
+Parameters, Mean Test Score, Rank
+{'C': 0.1, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.9335, 9
+{'C': 0.1, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.9335, 9
+{'C': 0.1, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.9335, 9
+{'C': 0.1, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.9335, 9
+{'C': 1.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.9601, 5
+{'C': 1.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.9593, 7
+{'C': 1.0, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.9601, 5
+{'C': 1.0, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.9593, 7
+{'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.9718, 1
+{'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.9718, 1
+{'C': 10.0, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.9718, 1
+{'C': 10.0, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.9718, 1
+Accuracy: 0.9656, Precision: 0.9656, Recall: 0.9656, F1 Score: 0.9656
+              precision    recall  f1-score   support
+
+         0.0       0.96      0.97      0.97       160
+         1.0       0.97      0.96      0.97       160
+
+    accuracy                           0.97       320
+   macro avg       0.97      0.97      0.97       320
+weighted avg       0.97      0.97      0.97       320
+
+[[155   5]
+ [  6 154]]
+Evaluation results for lr:
+Hyperparameter Tuning Results for lr:
+Parameters, Mean Test Score, Rank
+{'C': 0.1, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.9194, 1
+{'C': 0.1, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.9100, 3
+{'C': 0.1, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.9194, 1
+{'C': 0.1, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.9100, 3
+{'C': 1.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.9084, 5
+{'C': 1.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.9069, 7
+{'C': 1.0, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.9084, 5
+{'C': 1.0, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.9069, 7
+{'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.8951, 11
+{'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.8975, 9
+{'C': 10.0, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}, 0.8951, 11
+{'C': 10.0, 'max_iter': 200, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}, 0.8975, 9
+Accuracy: 0.9219, Precision: 0.9227, Recall: 0.9219, F1 Score: 0.9218
+              precision    recall  f1-score   support
+
+         0.0       0.90      0.94      0.92       160
+         1.0       0.94      0.90      0.92       160
+
+    accuracy                           0.92       320
+   macro avg       0.92      0.92      0.92       320
+weighted avg       0.92      0.92      0.92       320
+
+[[151   9]
+ [ 16 144]]
+Evaluation results for lr:
+Hyperparameter Tuning Results for lr:
+Parameters, Mean Test Score, Rank
+OrderedDict([('C', 1.6668070375736617), ('max_iter', 101), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9617, 23
+OrderedDict([('C', 0.8612788388331252), ('max_iter', 190), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9585, 25
+OrderedDict([('C', 2.6409325671860784), ('max_iter', 180), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9664, 19
+OrderedDict([('C', 5.07700680952156), ('max_iter', 128), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9711, 11
+OrderedDict([('C', 3.3657670962580606), ('max_iter', 197), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9679, 17
+OrderedDict([('C', 0.1491482708854582), ('max_iter', 155), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9351, 30
+OrderedDict([('C', 0.2576786874663448), ('max_iter', 177), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9437, 29
+OrderedDict([('C', 1.0203497563776986), ('max_iter', 111), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9601, 24
+OrderedDict([('C', 1.6979528012295626), ('max_iter', 200), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9640, 22
+OrderedDict([('C', 0.6214249109400447), ('max_iter', 182), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9562, 26
+OrderedDict([('C', 10.0), ('max_iter', 200), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9718, 1
+OrderedDict([('C', 10.0), ('max_iter', 100), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9718, 1
+OrderedDict([('C', 7.874367481699273), ('max_iter', 198), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9711, 11
+OrderedDict([('C', 9.996082443322777), ('max_iter', 119), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9718, 1
+OrderedDict([('C', 6.075861380728908), ('max_iter', 101), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9711, 11
+OrderedDict([('C', 6.927482776586144), ('max_iter', 199), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9718, 1
+OrderedDict([('C', 9.993745047580736), ('max_iter', 190), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9718, 1
+OrderedDict([('C', 9.909831132841068), ('max_iter', 106), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9718, 1
+OrderedDict([('C', 0.10020380629512186), ('max_iter', 127), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9335, 31
+OrderedDict([('C', 4.057205860136175), ('max_iter', 199), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9687, 16
+OrderedDict([('C', 6.262414864171024), ('max_iter', 100), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9718, 1
+OrderedDict([('C', 6.189401905542964), ('max_iter', 200), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9711, 11
+OrderedDict([('C', 0.3511064382881449), ('max_iter', 100), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9476, 27
+OrderedDict([('C', 9.970013070992355), ('max_iter', 107), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9718, 1
+OrderedDict([('C', 0.31870195957028097), ('max_iter', 141), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9468, 28
+OrderedDict([('C', 3.4001891142030614), ('max_iter', 101), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9679, 17
+OrderedDict([('C', 5.340223182849635), ('max_iter', 157), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9711, 11
+OrderedDict([('C', 2.140990481068852), ('max_iter', 161), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9648, 21
+OrderedDict([('C', 0.10178861434242491), ('max_iter', 200), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9335, 31
+OrderedDict([('C', 8.318552060866061), ('max_iter', 145), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9718, 1
+OrderedDict([('C', 9.403131868089561), ('max_iter', 192), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9718, 1
+OrderedDict([('C', 2.4598035728997565), ('max_iter', 168), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9656, 20
+Accuracy: 0.9656, Precision: 0.9656, Recall: 0.9656, F1 Score: 0.9656
+              precision    recall  f1-score   support
+
+         0.0       0.96      0.97      0.97       160
+         1.0       0.97      0.96      0.97       160
+
+    accuracy                           0.97       320
+   macro avg       0.97      0.97      0.97       320
+weighted avg       0.97      0.97      0.97       320
+
+[[155   5]
+ [  6 154]]
+Evaluation results for lr:
+Hyperparameter Tuning Results for lr:
+Parameters, Mean Test Score, Rank
+OrderedDict([('C', 1.620784971056931), ('max_iter', 198), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9617, 20
+OrderedDict([('C', 4.225376348321953), ('max_iter', 110), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9695, 15
+OrderedDict([('C', 0.43372594838535844), ('max_iter', 126), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9507, 26
+OrderedDict([('C', 3.4377323533291744), ('max_iter', 126), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9679, 16
+OrderedDict([('C', 0.3438906672000613), ('max_iter', 102), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9484, 27
+OrderedDict([('C', 9.241255187462722), ('max_iter', 138), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9718, 1
+OrderedDict([('C', 1.987952188701533), ('max_iter', 132), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9648, 19
+OrderedDict([('C', 0.49749117116895747), ('max_iter', 169), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9523, 25
+OrderedDict([('C', 0.7786291401358346), ('max_iter', 118), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9593, 23
+OrderedDict([('C', 9.77744646550583), ('max_iter', 186), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9718, 1
+OrderedDict([('C', 0.10068196744770934), ('max_iter', 200), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9335, 31
+OrderedDict([('C', 10.0), ('max_iter', 100), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9718, 1
+OrderedDict([('C', 6.498979521570371), ('max_iter', 100), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9711, 10
+OrderedDict([('C', 5.246842467154451), ('max_iter', 200), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9703, 13
+OrderedDict([('C', 0.10120975852582922), ('max_iter', 102), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9335, 31
+OrderedDict([('C', 10.0), ('max_iter', 200), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9718, 1
+OrderedDict([('C', 0.18049967200902817), ('max_iter', 198), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9366, 29
+OrderedDict([('C', 1.365946120059513), ('max_iter', 101), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9617, 20
+OrderedDict([('C', 1.0250598955478905), ('max_iter', 200), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9601, 22
+OrderedDict([('C', 8.589751272251691), ('max_iter', 200), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9711, 10
+OrderedDict([('C', 10.0), ('max_iter', 100), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9718, 1
+OrderedDict([('C', 2.615500553085596), ('max_iter', 198), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9656, 18
+OrderedDict([('C', 0.8951516867723739), ('max_iter', 156), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9593, 23
+OrderedDict([('C', 7.088910396794204), ('max_iter', 101), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9718, 1
+OrderedDict([('C', 6.720462944439056), ('max_iter', 200), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9718, 1
+OrderedDict([('C', 4.584679194605416), ('max_iter', 199), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9703, 13
+OrderedDict([('C', 7.322546563011145), ('max_iter', 101), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9711, 10
+OrderedDict([('C', 9.897436144141247), ('max_iter', 198), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9718, 1
+OrderedDict([('C', 7.20951645345519), ('max_iter', 200), ('penalty', 'l2'), ('solver', 'liblinear')]), 0.9718, 1
+OrderedDict([('C', 0.2552544272160378), ('max_iter', 186), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9437, 28
+OrderedDict([('C', 2.877498233650483), ('max_iter', 102), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9664, 17
+OrderedDict([('C', 0.13211248602735012), ('max_iter', 102), ('penalty', 'l2'), ('solver', 'lbfgs')]), 0.9343, 30
+Accuracy: 0.9656, Precision: 0.9656, Recall: 0.9656, F1 Score: 0.9656
+              precision    recall  f1-score   support
+
+         0.0       0.96      0.97      0.97       160
+         1.0       0.97      0.96      0.97       160
+
+    accuracy                           0.97       320
+   macro avg       0.97      0.97      0.97       320
+weighted avg       0.97      0.97      0.97       320
+
+[[155   5]
+ [  6 154]]

@@ -1,0 +1,895 @@
+2024-05-08 23:24:12,255 - INFO - Main process started
+2024-05-08 23:24:12,255 - INFO - Data loaded successfully
+2024-05-08 23:24:12,305 - INFO - Data loaded successfully from /Users/anithabalachandran/Data Analytics/Third sem/Data 240/Project NewsNuggets/Category_Classification/Dataset/compiled_news_data.csv
+2024-05-08 23:24:14,788 - INFO - Data preprocessing completed
+2024-05-08 23:24:14,788 - INFO - Fitting and transforming text data to TF-IDF vectors.
+2024-05-08 23:24:14,957 - INFO - TF-IDF vectorization completed.
+2024-05-08 23:24:14,958 - INFO - TF-IDF vectorization completed
+2024-05-08 23:24:14,958 - INFO - Training LR model with hyperparameter tuning...
+2024-05-08 23:24:17,893 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:24:17,893 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-08 23:24:17,905 - INFO - Training DT model with hyperparameter tuning...
+2024-05-08 23:24:23,199 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:24:23,199 - INFO - Best parameters for dt: {'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 5}
+2024-05-08 23:24:23,204 - INFO - Training RF model with hyperparameter tuning...
+2024-05-08 23:24:58,293 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:24:58,294 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 100}
+2024-05-08 23:24:58,314 - INFO - Training AB model with hyperparameter tuning...
+2024-05-08 23:25:54,939 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:25:54,939 - INFO - Best parameters for ab: {'learning_rate': 1.0, 'n_estimators': 200}
+2024-05-08 23:25:55,040 - INFO - Training NB model with hyperparameter tuning...
+2024-05-08 23:25:55,216 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:25:55,216 - INFO - Best parameters for nb: {}
+2024-05-08 23:25:55,259 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-08 23:25:55,259 - INFO - Fitting and transforming text data to Bag of Words (BoW) vectors.
+2024-05-08 23:25:55,505 - INFO - Bag of Words (BoW) vectorization completed.
+2024-05-08 23:25:55,506 - INFO - Bag of Words (BoW) vectorization completed
+2024-05-08 23:25:55,506 - INFO - Training LR model with hyperparameter tuning...
+2024-05-08 23:25:59,290 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:25:59,290 - INFO - Best parameters for lr: {'C': 0.1, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-08 23:25:59,295 - INFO - Training DT model with hyperparameter tuning...
+2024-05-08 23:26:03,216 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:26:03,216 - INFO - Best parameters for dt: {'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2024-05-08 23:26:03,222 - INFO - Training RF model with hyperparameter tuning...
+2024-05-08 23:26:40,234 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:26:40,235 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 200}
+2024-05-08 23:26:40,285 - INFO - Training AB model with hyperparameter tuning...
+2024-05-08 23:27:26,743 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:27:26,743 - INFO - Best parameters for ab: {'learning_rate': 1.0, 'n_estimators': 200}
+2024-05-08 23:27:26,784 - INFO - Training NB model with hyperparameter tuning...
+2024-05-08 23:27:26,950 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:27:26,950 - INFO - Best parameters for nb: {}
+2024-05-08 23:27:26,957 - INFO - BoW models trained and evaluated successfully
+2024-05-08 23:29:19,113 - INFO - Main process started
+2024-05-08 23:29:19,113 - INFO - Data loaded successfully
+2024-05-08 23:29:19,165 - INFO - Data loaded successfully from /Users/anithabalachandran/Data Analytics/Third sem/Data 240/Project NewsNuggets/Category_Classification/Dataset/compiled_news_data.csv
+2024-05-08 23:29:21,522 - INFO - Data preprocessing completed
+2024-05-08 23:29:21,522 - INFO - Fitting and transforming text data to TF-IDF vectors.
+2024-05-08 23:29:21,687 - INFO - TF-IDF vectorization completed.
+2024-05-08 23:29:21,687 - INFO - TF-IDF vectorization completed
+2024-05-08 23:29:21,687 - INFO - Training LR model with hyperparameter tuning...
+2024-05-08 23:29:24,670 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:29:24,671 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-08 23:31:22,317 - INFO - Main process started
+2024-05-08 23:31:22,317 - INFO - Data loaded successfully
+2024-05-08 23:31:22,370 - INFO - Data loaded successfully from /Users/anithabalachandran/Data Analytics/Third sem/Data 240/Project NewsNuggets/Category_Classification/Dataset/compiled_news_data.csv
+2024-05-08 23:31:24,727 - INFO - Data preprocessing completed
+2024-05-08 23:31:24,727 - INFO - Fitting and transforming text data to TF-IDF vectors.
+2024-05-08 23:31:24,892 - INFO - TF-IDF vectorization completed.
+2024-05-08 23:31:24,893 - INFO - TF-IDF vectorization completed
+2024-05-08 23:31:24,893 - INFO - Training LR model with hyperparameter tuning...
+2024-05-08 23:31:27,939 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:31:27,939 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-08 23:33:52,955 - INFO - Main process started
+2024-05-08 23:33:52,956 - INFO - Data loaded successfully
+2024-05-08 23:33:53,005 - INFO - Data loaded successfully from /Users/anithabalachandran/Data Analytics/Third sem/Data 240/Project NewsNuggets/Category_Classification/Dataset/compiled_news_data.csv
+2024-05-08 23:33:55,377 - INFO - Data preprocessing completed
+2024-05-08 23:33:55,377 - INFO - Fitting and transforming text data to TF-IDF vectors.
+2024-05-08 23:33:55,541 - INFO - TF-IDF vectorization completed.
+2024-05-08 23:33:55,541 - INFO - TF-IDF vectorization completed
+2024-05-08 23:33:55,541 - INFO - Training LR model with hyperparameter tuning...
+2024-05-08 23:33:58,635 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:33:58,636 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}
+2024-05-08 23:35:54,907 - INFO - Main process started
+2024-05-08 23:35:54,907 - INFO - Data loaded successfully
+2024-05-08 23:35:54,959 - INFO - Data loaded successfully from /Users/anithabalachandran/Data Analytics/Third sem/Data 240/Project NewsNuggets/Category_Classification/Dataset/compiled_news_data.csv
+2024-05-08 23:35:57,313 - INFO - Data preprocessing completed
+2024-05-08 23:35:57,313 - INFO - Fitting and transforming text data to TF-IDF vectors.
+2024-05-08 23:35:57,480 - INFO - TF-IDF vectorization completed.
+2024-05-08 23:35:57,480 - INFO - TF-IDF vectorization completed
+2024-05-08 23:35:57,480 - INFO - Training LR model with hyperparameter tuning...
+2024-05-08 23:36:01,074 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:36:01,074 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-08 23:37:43,331 - INFO - Main process started
+2024-05-08 23:37:43,332 - INFO - Data loaded successfully
+2024-05-08 23:37:43,383 - INFO - Data loaded successfully from /Users/anithabalachandran/Data Analytics/Third sem/Data 240/Project NewsNuggets/Category_Classification/Dataset/compiled_news_data.csv
+2024-05-08 23:37:45,726 - INFO - Data preprocessing completed
+2024-05-08 23:37:45,726 - INFO - Fitting and transforming text data to TF-IDF vectors.
+2024-05-08 23:37:45,891 - INFO - TF-IDF vectorization completed.
+2024-05-08 23:37:45,891 - INFO - TF-IDF vectorization completed
+2024-05-08 23:37:45,891 - INFO - Training LR model with hyperparameter tuning...
+2024-05-08 23:37:48,864 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:37:48,865 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-08 23:39:32,250 - INFO - Main process started
+2024-05-08 23:39:32,250 - INFO - Data loaded successfully
+2024-05-08 23:39:32,300 - INFO - Data loaded successfully from /Users/anithabalachandran/Data Analytics/Third sem/Data 240/Project NewsNuggets/Category_Classification/Dataset/compiled_news_data.csv
+2024-05-08 23:39:34,646 - INFO - Data preprocessing completed
+2024-05-08 23:39:34,646 - INFO - Fitting and transforming text data to TF-IDF vectors.
+2024-05-08 23:39:34,810 - INFO - TF-IDF vectorization completed.
+2024-05-08 23:39:34,810 - INFO - TF-IDF vectorization completed
+2024-05-08 23:39:34,810 - INFO - Training LR model with hyperparameter tuning...
+2024-05-08 23:39:37,918 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:39:37,918 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}
+2024-05-08 23:39:37,924 - INFO - Training DT model with hyperparameter tuning...
+2024-05-08 23:39:43,054 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:39:43,054 - INFO - Best parameters for dt: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 10}
+2024-05-08 23:39:43,060 - INFO - Training RF model with hyperparameter tuning...
+2024-05-08 23:40:22,706 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:40:22,707 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+2024-05-08 23:40:22,728 - INFO - Training AB model with hyperparameter tuning...
+2024-05-08 23:41:16,459 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:41:16,459 - INFO - Best parameters for ab: {'learning_rate': 1.0, 'n_estimators': 200}
+2024-05-08 23:41:16,567 - INFO - Training NB model with hyperparameter tuning...
+2024-05-08 23:41:16,743 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:41:16,743 - INFO - Best parameters for nb: {}
+2024-05-08 23:41:16,777 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-08 23:41:16,777 - INFO - Fitting and transforming text data to Bag of Words (BoW) vectors.
+2024-05-08 23:41:17,012 - INFO - Bag of Words (BoW) vectorization completed.
+2024-05-08 23:41:17,012 - INFO - Bag of Words (BoW) vectorization completed
+2024-05-08 23:41:17,013 - INFO - Training LR model with hyperparameter tuning...
+2024-05-08 23:41:20,759 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:41:20,759 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-08 23:41:20,765 - INFO - Training DT model with hyperparameter tuning...
+2024-05-08 23:41:24,987 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:41:24,987 - INFO - Best parameters for dt: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2024-05-08 23:41:24,993 - INFO - Training RF model with hyperparameter tuning...
+2024-05-08 23:42:07,182 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:42:07,182 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 200}
+2024-05-08 23:42:07,220 - INFO - Training AB model with hyperparameter tuning...
+2024-05-08 23:42:51,177 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:42:51,178 - INFO - Best parameters for ab: {'learning_rate': 1.0, 'n_estimators': 200}
+2024-05-08 23:42:51,222 - INFO - Training NB model with hyperparameter tuning...
+2024-05-08 23:42:51,368 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:42:51,368 - INFO - Best parameters for nb: {}
+2024-05-08 23:42:51,378 - INFO - BoW models trained and evaluated successfully
+2024-05-08 23:46:50,932 - INFO - Main process started
+2024-05-08 23:46:50,932 - INFO - Data loaded successfully
+2024-05-08 23:46:50,987 - INFO - Data loaded successfully from /Users/anithabalachandran/Data Analytics/Third sem/Data 240/Project NewsNuggets/Category_Classification/Dataset/compiled_news_data.csv
+2024-05-08 23:46:53,343 - INFO - Data preprocessing completed
+2024-05-08 23:46:53,344 - INFO - Fitting and transforming text data to TF-IDF vectors.
+2024-05-08 23:46:53,509 - INFO - TF-IDF vectorization completed.
+2024-05-08 23:46:53,510 - INFO - TF-IDF vectorization completed
+2024-05-08 23:47:19,880 - INFO - Main process started
+2024-05-08 23:47:19,880 - INFO - Data loaded successfully
+2024-05-08 23:47:19,930 - INFO - Data loaded successfully from /Users/anithabalachandran/Data Analytics/Third sem/Data 240/Project NewsNuggets/Category_Classification/Dataset/compiled_news_data.csv
+2024-05-08 23:47:22,273 - INFO - Data preprocessing completed
+2024-05-08 23:47:22,273 - INFO - Fitting and transforming text data to TF-IDF vectors.
+2024-05-08 23:47:22,437 - INFO - TF-IDF vectorization completed.
+2024-05-08 23:47:22,438 - INFO - TF-IDF vectorization completed
+2024-05-08 23:47:22,438 - INFO - Training LR model with hyperparameter tuning...
+2024-05-08 23:47:25,353 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:47:25,353 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-08 23:47:25,363 - INFO - Evaluation results for lr:
+2024-05-08 23:47:25,364 - INFO - Training DT model with hyperparameter tuning...
+2024-05-08 23:47:30,680 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:47:30,680 - INFO - Best parameters for dt: {'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2024-05-08 23:47:30,685 - INFO - Evaluation results for dt:
+2024-05-08 23:47:30,685 - INFO - Training RF model with hyperparameter tuning...
+2024-05-08 23:48:06,572 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:48:06,573 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 200}
+2024-05-08 23:48:06,610 - INFO - Evaluation results for rf:
+2024-05-08 23:48:06,611 - INFO - Training AB model with hyperparameter tuning...
+2024-05-08 23:49:00,378 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:49:00,379 - INFO - Best parameters for ab: {'learning_rate': 1.0, 'n_estimators': 200}
+2024-05-08 23:49:00,470 - INFO - Evaluation results for ab:
+2024-05-08 23:49:00,471 - INFO - Training NB model with hyperparameter tuning...
+2024-05-08 23:49:00,618 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:49:00,618 - INFO - Best parameters for nb: {}
+2024-05-08 23:49:00,623 - INFO - Evaluation results for nb:
+2024-05-08 23:49:00,624 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-08 23:49:00,624 - INFO - Fitting and transforming text data to Bag of Words (BoW) vectors.
+2024-05-08 23:49:00,808 - INFO - Bag of Words (BoW) vectorization completed.
+2024-05-08 23:49:00,808 - INFO - Bag of Words (BoW) vectorization completed
+2024-05-08 23:49:00,808 - INFO - Training LR model with hyperparameter tuning...
+2024-05-08 23:49:04,535 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:49:04,535 - INFO - Best parameters for lr: {'C': 0.1, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-08 23:49:04,542 - INFO - Evaluation results for lr:
+2024-05-08 23:49:04,543 - INFO - Training DT model with hyperparameter tuning...
+2024-05-08 23:49:08,188 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:49:08,189 - INFO - Best parameters for dt: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2024-05-08 23:49:08,192 - INFO - Evaluation results for dt:
+2024-05-08 23:49:08,192 - INFO - Training RF model with hyperparameter tuning...
+2024-05-08 23:49:43,678 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:49:43,679 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 200}
+2024-05-08 23:49:43,711 - INFO - Evaluation results for rf:
+2024-05-08 23:49:43,712 - INFO - Training AB model with hyperparameter tuning...
+2024-05-08 23:50:24,561 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:50:24,561 - INFO - Best parameters for ab: {'learning_rate': 1.0, 'n_estimators': 200}
+2024-05-08 23:50:24,599 - INFO - Evaluation results for ab:
+2024-05-08 23:50:24,600 - INFO - Training NB model with hyperparameter tuning...
+2024-05-08 23:50:24,745 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:50:24,745 - INFO - Best parameters for nb: {}
+2024-05-08 23:50:24,751 - INFO - Evaluation results for nb:
+2024-05-08 23:50:24,751 - INFO - BoW models trained and evaluated successfully
+2024-05-08 23:56:06,981 - INFO - Main process started
+2024-05-08 23:56:07,032 - INFO - Data loaded successfully from /Users/anithabalachandran/Data Analytics/Third sem/Data 240/Project NewsNuggets/Category_Classification/Dataset/compiled_news_data.csv
+2024-05-08 23:56:07,032 - INFO - Data loaded successfully
+2024-05-08 23:56:09,383 - INFO - Data preprocessing completed
+2024-05-08 23:56:09,383 - INFO - Fitting and transforming text data to TF-IDF vectors.
+2024-05-08 23:56:09,549 - INFO - TF-IDF vectorization completed.
+2024-05-08 23:56:09,550 - INFO - TF-IDF vectorization completed
+2024-05-08 23:56:09,550 - INFO - Training LR model with hyperparameter tuning...
+2024-05-08 23:56:13,005 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:56:13,006 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-08 23:56:13,012 - INFO - Training DT model with hyperparameter tuning...
+2024-05-08 23:56:18,447 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:56:18,447 - INFO - Best parameters for dt: {'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2024-05-08 23:56:18,453 - INFO - Training RF model with hyperparameter tuning...
+2024-05-08 23:56:56,888 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:56:56,889 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}
+2024-05-08 23:56:56,929 - INFO - Training AB model with hyperparameter tuning...
+2024-05-08 23:57:57,092 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:57:57,094 - INFO - Best parameters for ab: {'learning_rate': 1.0, 'n_estimators': 200}
+2024-05-08 23:57:57,208 - INFO - Training NB model with hyperparameter tuning...
+2024-05-08 23:57:57,371 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:57:57,371 - INFO - Best parameters for nb: {}
+2024-05-08 23:57:57,388 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-08 23:57:57,388 - INFO - Fitting and transforming text data to Bag of Words (BoW) vectors.
+2024-05-08 23:57:57,564 - INFO - Bag of Words (BoW) vectorization completed.
+2024-05-08 23:57:57,565 - INFO - Bag of Words (BoW) vectorization completed
+2024-05-08 23:57:57,565 - INFO - Training LR model with hyperparameter tuning...
+2024-05-08 23:58:01,331 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:58:01,331 - INFO - Best parameters for lr: {'C': 1.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-08 23:58:01,337 - INFO - Training DT model with hyperparameter tuning...
+2024-05-08 23:58:05,040 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:58:05,041 - INFO - Best parameters for dt: {'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 5}
+2024-05-08 23:58:05,046 - INFO - Training RF model with hyperparameter tuning...
+2024-05-08 23:58:40,165 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:58:40,166 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}
+2024-05-08 23:58:40,204 - INFO - Training AB model with hyperparameter tuning...
+2024-05-08 23:59:22,658 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:59:22,659 - INFO - Best parameters for ab: {'learning_rate': 1.0, 'n_estimators': 200}
+2024-05-08 23:59:22,698 - INFO - Training NB model with hyperparameter tuning...
+2024-05-08 23:59:22,882 - INFO - Training completed with hyperparameter tuning.
+2024-05-08 23:59:22,882 - INFO - Best parameters for nb: {}
+2024-05-08 23:59:22,892 - INFO - BoW models trained and evaluated successfully
+2024-05-09 00:05:59,626 - INFO - Main process started
+2024-05-09 00:05:59,677 - INFO - Data loaded successfully from /Users/anithabalachandran/Data Analytics/Third sem/Data 240/Project NewsNuggets/Category_Classification/Dataset/compiled_news_data.csv
+2024-05-09 00:05:59,677 - INFO - Data loaded successfully
+2024-05-09 00:06:02,036 - INFO - Data preprocessing completed
+2024-05-09 00:06:02,036 - INFO - Fitting and transforming text data to TF-IDF vectors.
+2024-05-09 00:06:02,201 - INFO - TF-IDF vectorization completed.
+2024-05-09 00:06:02,202 - INFO - TF-IDF vectorization completed
+2024-05-09 00:06:02,202 - INFO - Training LR model with hyperparameter tuning...
+2024-05-09 00:06:05,228 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:06:05,229 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-09 00:06:44,845 - INFO - Main process started
+2024-05-09 00:06:44,898 - INFO - Data loaded successfully from /Users/anithabalachandran/Data Analytics/Third sem/Data 240/Project NewsNuggets/Category_Classification/Dataset/compiled_news_data.csv
+2024-05-09 00:06:44,898 - INFO - Data loaded successfully
+2024-05-09 00:06:47,349 - INFO - Data preprocessing completed
+2024-05-09 00:06:47,349 - INFO - Fitting and transforming text data to TF-IDF vectors.
+2024-05-09 00:06:47,519 - INFO - TF-IDF vectorization completed.
+2024-05-09 00:06:47,519 - INFO - TF-IDF vectorization completed
+2024-05-09 00:06:47,519 - INFO - Training LR model with hyperparameter tuning...
+2024-05-09 00:06:50,845 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:06:50,846 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}
+2024-05-09 00:06:50,852 - INFO - Training DT model with hyperparameter tuning...
+2024-05-09 00:06:56,303 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:06:56,304 - INFO - Best parameters for dt: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2024-05-09 00:06:56,308 - INFO - Training RF model with hyperparameter tuning...
+2024-05-09 00:07:38,628 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:07:38,629 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 200}
+2024-05-09 00:07:38,667 - INFO - Training AB model with hyperparameter tuning...
+2024-05-09 00:08:38,545 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:08:38,546 - INFO - Best parameters for ab: {'learning_rate': 1.0, 'n_estimators': 200}
+2024-05-09 00:08:38,648 - INFO - Training NB model with hyperparameter tuning...
+2024-05-09 00:08:38,835 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:08:38,835 - INFO - Best parameters for nb: {}
+2024-05-09 00:08:38,856 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 00:08:38,856 - INFO - Fitting and transforming text data to Bag of Words (BoW) vectors.
+2024-05-09 00:08:39,054 - INFO - Bag of Words (BoW) vectorization completed.
+2024-05-09 00:08:39,054 - INFO - Bag of Words (BoW) vectorization completed
+2024-05-09 00:08:39,054 - INFO - Training LR model with hyperparameter tuning...
+2024-05-09 00:08:43,367 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:08:43,367 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-09 00:08:43,373 - INFO - Training DT model with hyperparameter tuning...
+2024-05-09 00:08:47,326 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:08:47,326 - INFO - Best parameters for dt: {'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2024-05-09 00:08:47,330 - INFO - Training RF model with hyperparameter tuning...
+2024-05-09 00:09:22,458 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:09:22,459 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 10, 'n_estimators': 200}
+2024-05-09 00:09:22,495 - INFO - Training AB model with hyperparameter tuning...
+2024-05-09 00:10:04,615 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:10:04,616 - INFO - Best parameters for ab: {'learning_rate': 1.0, 'n_estimators': 200}
+2024-05-09 00:10:40,571 - INFO - Main process started
+2024-05-09 00:10:40,621 - INFO - Data loaded successfully from /Users/anithabalachandran/Data Analytics/Third sem/Data 240/Project NewsNuggets/Category_Classification/Dataset/compiled_news_data.csv
+2024-05-09 00:10:40,622 - INFO - Data loaded successfully
+2024-05-09 00:10:42,966 - INFO - Data preprocessing completed
+2024-05-09 00:10:42,966 - INFO - Fitting and transforming text data to TF-IDF vectors.
+2024-05-09 00:10:43,134 - INFO - TF-IDF vectorization completed.
+2024-05-09 00:10:43,135 - INFO - TF-IDF vectorization completed
+2024-05-09 00:10:43,135 - INFO - Training LR model with hyperparameter tuning...
+2024-05-09 00:10:46,704 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:10:46,705 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-09 00:12:24,360 - INFO - Main process started
+2024-05-09 00:12:24,414 - INFO - Data loaded successfully from /Users/anithabalachandran/Data Analytics/Third sem/Data 240/Project NewsNuggets/Category_Classification/Dataset/compiled_news_data.csv
+2024-05-09 00:12:24,414 - INFO - Data loaded successfully
+2024-05-09 00:12:26,761 - INFO - Data preprocessing completed
+2024-05-09 00:12:26,761 - INFO - Fitting and transforming text data to TF-IDF vectors.
+2024-05-09 00:12:26,926 - INFO - TF-IDF vectorization completed.
+2024-05-09 00:12:26,927 - INFO - TF-IDF vectorization completed
+2024-05-09 00:12:26,927 - INFO - Training LR model with hyperparameter tuning...
+2024-05-09 00:12:30,058 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:12:30,059 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}
+2024-05-09 00:13:16,060 - INFO - Main process started
+2024-05-09 00:13:16,112 - INFO - Data loaded successfully from /Users/anithabalachandran/Data Analytics/Third sem/Data 240/Project NewsNuggets/Category_Classification/Dataset/compiled_news_data.csv
+2024-05-09 00:13:16,112 - INFO - Data loaded successfully
+2024-05-09 00:13:18,505 - INFO - Data preprocessing completed
+2024-05-09 00:13:18,506 - INFO - Fitting and transforming text data to TF-IDF vectors.
+2024-05-09 00:13:18,677 - INFO - TF-IDF vectorization completed.
+2024-05-09 00:13:18,677 - INFO - TF-IDF vectorization completed
+2024-05-09 00:13:18,677 - INFO - Training LR model with hyperparameter tuning...
+2024-05-09 00:13:21,642 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:13:21,644 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-09 00:13:21,652 - INFO - Training DT model with hyperparameter tuning...
+2024-05-09 00:13:26,821 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:13:26,821 - INFO - Best parameters for dt: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5}
+2024-05-09 00:13:26,826 - INFO - Training RF model with hyperparameter tuning...
+2024-05-09 00:14:04,584 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:14:04,585 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}
+2024-05-09 00:14:04,622 - INFO - Training AB model with hyperparameter tuning...
+2024-05-09 00:15:02,667 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:15:02,668 - INFO - Best parameters for ab: {'learning_rate': 1.0, 'n_estimators': 200}
+2024-05-09 00:15:02,764 - INFO - Training NB model with hyperparameter tuning...
+2024-05-09 00:15:02,947 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:15:02,947 - INFO - Best parameters for nb: {}
+2024-05-09 00:15:02,966 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 00:15:02,966 - INFO - Fitting and transforming text data to Bag of Words (BoW) vectors.
+2024-05-09 00:15:03,153 - INFO - Bag of Words (BoW) vectorization completed.
+2024-05-09 00:15:03,153 - INFO - Bag of Words (BoW) vectorization completed
+2024-05-09 00:15:03,153 - INFO - Training LR model with hyperparameter tuning...
+2024-05-09 00:15:07,373 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:15:07,374 - INFO - Best parameters for lr: {'C': 1.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}
+2024-05-09 00:15:07,384 - INFO - Training DT model with hyperparameter tuning...
+2024-05-09 00:15:11,519 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:15:11,520 - INFO - Best parameters for dt: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5}
+2024-05-09 00:15:11,525 - INFO - Training RF model with hyperparameter tuning...
+2024-05-09 00:15:50,493 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:15:50,493 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 200}
+2024-05-09 00:15:50,527 - INFO - Training AB model with hyperparameter tuning...
+2024-05-09 00:16:31,262 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:16:31,263 - INFO - Best parameters for ab: {'learning_rate': 1.0, 'n_estimators': 200}
+2024-05-09 00:16:31,301 - INFO - Training NB model with hyperparameter tuning...
+2024-05-09 00:16:31,451 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:16:31,451 - INFO - Best parameters for nb: {}
+2024-05-09 00:16:31,461 - INFO - BoW models trained and evaluated successfully
+2024-05-09 00:16:48,753 - INFO - Main process started
+2024-05-09 00:16:48,802 - INFO - Data loaded successfully from /Users/anithabalachandran/Data Analytics/Third sem/Data 240/Project NewsNuggets/Category_Classification/Dataset/compiled_news_data.csv
+2024-05-09 00:16:48,802 - INFO - Data loaded successfully
+2024-05-09 00:16:51,151 - INFO - Data preprocessing completed
+2024-05-09 00:16:51,151 - INFO - Fitting and transforming text data to TF-IDF vectors.
+2024-05-09 00:16:51,315 - INFO - TF-IDF vectorization completed.
+2024-05-09 00:16:51,315 - INFO - TF-IDF vectorization completed
+2024-05-09 00:16:51,315 - INFO - Training LR model with hyperparameter tuning...
+2024-05-09 00:16:54,211 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:16:54,212 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-09 00:16:54,217 - INFO - Training DT model with hyperparameter tuning...
+2024-05-09 00:16:59,288 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:16:59,288 - INFO - Best parameters for dt: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2024-05-09 00:16:59,294 - INFO - Training RF model with hyperparameter tuning...
+2024-05-09 00:17:35,056 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:17:35,057 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}
+2024-05-09 00:17:35,105 - INFO - Training AB model with hyperparameter tuning...
+2024-05-09 00:18:28,390 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:18:28,392 - INFO - Best parameters for ab: {'learning_rate': 1.0, 'n_estimators': 200}
+2024-05-09 00:18:28,487 - INFO - Training NB model with hyperparameter tuning...
+2024-05-09 00:18:28,646 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:18:28,646 - INFO - Best parameters for nb: {}
+2024-05-09 00:18:28,656 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 00:18:28,656 - INFO - Fitting and transforming text data to Bag of Words (BoW) vectors.
+2024-05-09 00:18:28,830 - INFO - Bag of Words (BoW) vectorization completed.
+2024-05-09 00:18:28,830 - INFO - Bag of Words (BoW) vectorization completed
+2024-05-09 00:18:28,830 - INFO - Training LR model with hyperparameter tuning...
+2024-05-09 00:18:32,050 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:18:32,051 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'lbfgs'}
+2024-05-09 00:18:32,060 - INFO - Training DT model with hyperparameter tuning...
+2024-05-09 00:18:35,698 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:18:35,699 - INFO - Best parameters for dt: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5}
+2024-05-09 00:18:35,703 - INFO - Training RF model with hyperparameter tuning...
+2024-05-09 00:19:08,009 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:19:08,009 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2, 'n_estimators': 100}
+2024-05-09 00:19:08,029 - INFO - Training AB model with hyperparameter tuning...
+2024-05-09 00:19:49,210 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:19:49,210 - INFO - Best parameters for ab: {'learning_rate': 1.0, 'n_estimators': 200}
+2024-05-09 00:19:49,248 - INFO - Training NB model with hyperparameter tuning...
+2024-05-09 00:19:49,395 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 00:19:49,395 - INFO - Best parameters for nb: {}
+2024-05-09 00:19:49,401 - INFO - BoW models trained and evaluated successfully
+2024-05-09 10:07:14,151 - INFO - Main process started
+2024-05-09 10:07:14,221 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-09 10:07:14,222 - INFO - Data loaded successfully
+2024-05-09 10:07:59,042 - INFO - Main process started
+2024-05-09 10:07:59,102 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-09 10:07:59,102 - INFO - Data loaded successfully
+2024-05-09 10:08:47,101 - INFO - Main process started
+2024-05-09 10:08:47,154 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-09 10:08:47,154 - INFO - Data loaded successfully
+2024-05-09 10:10:21,466 - INFO - Main process started
+2024-05-09 10:10:21,518 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-09 10:10:21,518 - INFO - Data loaded successfully
+2024-05-09 10:14:00,918 - INFO - Main process started
+2024-05-09 10:14:00,985 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-09 10:14:00,986 - INFO - Data loaded successfully
+2024-05-09 10:17:16,478 - INFO - Main process started
+2024-05-09 10:17:16,548 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-09 10:17:16,548 - INFO - Data loaded successfully
+2024-05-09 10:17:20,920 - INFO - Text preprocessing completed successfully
+2024-05-09 10:18:13,419 - INFO - Main process started
+2024-05-09 10:18:13,485 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-09 10:18:13,485 - INFO - Data loaded successfully
+2024-05-09 10:18:17,713 - INFO - Text preprocessing completed successfully
+2024-05-09 10:18:17,714 - INFO - Data preprocessing completed
+2024-05-09 10:44:32,850 - INFO - Main process started
+2024-05-09 10:44:32,914 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-09 10:44:32,914 - INFO - Data loaded successfully
+2024-05-09 10:44:36,918 - INFO - Text preprocessing completed successfully
+2024-05-09 10:44:36,918 - INFO - Data preprocessing completed
+2024-05-09 10:45:31,464 - INFO - Main process started
+2024-05-09 10:45:31,520 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-09 10:45:31,521 - INFO - Data loaded successfully
+2024-05-09 10:45:35,389 - INFO - Text preprocessing completed successfully
+2024-05-09 10:45:35,389 - INFO - Data preprocessing completed
+2024-05-09 10:47:04,932 - INFO - Main process started
+2024-05-09 10:47:05,006 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-09 10:47:05,007 - INFO - Data loaded successfully
+2024-05-09 10:47:09,193 - INFO - Text preprocessing completed successfully
+2024-05-09 10:47:09,193 - INFO - Data preprocessing completed
+2024-05-09 10:48:41,761 - INFO - Main process started
+2024-05-09 10:48:41,823 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-09 10:48:41,823 - INFO - Data loaded successfully
+2024-05-09 10:48:46,004 - INFO - Text preprocessing completed successfully
+2024-05-09 10:48:46,004 - INFO - Data preprocessing completed
+2024-05-09 10:48:46,004 - INFO - Vectorizing with tfidf...
+2024-05-09 10:54:11,482 - INFO - Main process started
+2024-05-09 10:54:11,539 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-09 10:54:11,539 - INFO - Data loaded successfully
+2024-05-09 10:54:15,508 - INFO - Text preprocessing completed successfully
+2024-05-09 10:54:15,508 - INFO - Data preprocessing completed
+2024-05-09 10:55:43,256 - INFO - Main process started
+2024-05-09 10:55:43,313 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-09 10:55:43,313 - INFO - Data loaded successfully
+2024-05-09 10:55:43,315 - INFO - Starting text preprocessing
+2024-05-09 10:55:47,976 - INFO - Text preprocessing completed successfully
+2024-05-09 10:55:47,976 - INFO - Data preprocessing completed
+2024-05-09 10:57:27,638 - INFO - Main process started
+2024-05-09 10:57:27,713 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-09 10:57:27,713 - INFO - Data loaded successfully
+2024-05-09 10:57:27,714 - INFO - Starting text preprocessing
+2024-05-09 10:57:32,867 - INFO - Text preprocessing completed successfully
+2024-05-09 10:57:32,867 - INFO - Data preprocessing completed
+2024-05-09 10:57:35,386 - INFO - Vectorizing with tfidf...
+2024-05-09 10:57:35,950 - INFO - Training LR model with hyperparameter tuning...
+2024-05-09 10:57:42,866 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 10:57:42,866 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-09 10:57:42,894 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 10:57:42,894 - INFO - Training DT model with hyperparameter tuning...
+2024-05-09 10:58:24,954 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 10:58:24,957 - INFO - Best parameters for dt: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2024-05-09 10:58:25,056 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 10:58:25,056 - INFO - Training RF model with hyperparameter tuning...
+2024-05-09 11:02:24,192 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:02:24,192 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 100}
+2024-05-09 11:02:24,273 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 11:02:24,273 - INFO - Training AB model with hyperparameter tuning...
+2024-05-09 11:08:17,345 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:08:17,351 - INFO - Best parameters for ab: {'learning_rate': 1.0, 'n_estimators': 200}
+2024-05-09 11:08:18,262 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 11:08:18,262 - INFO - Training NB model with hyperparameter tuning...
+2024-05-09 11:08:18,577 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:08:18,577 - INFO - Best parameters for nb: {}
+2024-05-09 11:08:18,596 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 11:15:02,873 - INFO - Main process started
+2024-05-09 11:15:02,948 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-09 11:15:02,948 - INFO - Data loaded successfully
+2024-05-09 11:15:02,951 - INFO - Starting text preprocessing
+2024-05-09 11:15:08,292 - INFO - Text preprocessing completed successfully
+2024-05-09 11:15:08,292 - INFO - Data preprocessing completed
+2024-05-09 11:15:08,293 - INFO - Vectorizing with tfidf...
+2024-05-09 11:15:08,598 - INFO - Training LR model with hyperparameter tuning...
+2024-05-09 11:15:14,627 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:15:14,627 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-09 11:15:14,650 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 11:15:14,651 - INFO - Training DT model with hyperparameter tuning...
+2024-05-09 11:16:03,729 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:16:03,732 - INFO - Best parameters for dt: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2024-05-09 11:16:03,837 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 11:16:03,837 - INFO - Training RF model with hyperparameter tuning...
+2024-05-09 11:20:50,628 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:20:50,632 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 100}
+2024-05-09 11:20:50,823 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 11:20:50,823 - INFO - Training AB model with hyperparameter tuning...
+2024-05-09 11:25:05,657 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:25:05,659 - INFO - Best parameters for ab: {'learning_rate': 1.0, 'n_estimators': 200}
+2024-05-09 11:25:06,817 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 11:25:06,817 - INFO - Training NB model with hyperparameter tuning...
+2024-05-09 11:25:07,179 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:25:07,180 - INFO - Best parameters for nb: {}
+2024-05-09 11:25:07,212 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 11:25:07,217 - INFO - Vectorizing with bow...
+2024-05-09 11:25:07,856 - INFO - Training LR model with hyperparameter tuning...
+2024-05-09 11:25:16,330 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:25:16,330 - INFO - Best parameters for lr: {'C': 0.1, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-09 11:25:16,350 - INFO - BoW models trained and evaluated successfully
+2024-05-09 11:25:16,351 - INFO - Training DT model with hyperparameter tuning...
+2024-05-09 11:25:35,534 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:25:35,534 - INFO - Best parameters for dt: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5}
+2024-05-09 11:25:35,559 - INFO - BoW models trained and evaluated successfully
+2024-05-09 11:25:35,559 - INFO - Training RF model with hyperparameter tuning...
+2024-05-09 11:29:05,890 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:29:05,891 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+2024-05-09 11:29:05,993 - INFO - BoW models trained and evaluated successfully
+2024-05-09 11:29:05,993 - INFO - Training AB model with hyperparameter tuning...
+2024-05-09 11:31:31,116 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:31:31,117 - INFO - Best parameters for ab: {'learning_rate': 1.0, 'n_estimators': 200}
+2024-05-09 11:31:31,615 - INFO - BoW models trained and evaluated successfully
+2024-05-09 11:31:31,616 - INFO - Training NB model with hyperparameter tuning...
+2024-05-09 11:31:31,841 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:31:31,842 - INFO - Best parameters for nb: {}
+2024-05-09 11:31:31,861 - INFO - BoW models trained and evaluated successfully
+2024-05-09 11:33:53,103 - INFO - Main process started
+2024-05-09 11:33:53,162 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-09 11:33:53,162 - INFO - Data loaded successfully
+2024-05-09 11:33:53,164 - INFO - Starting text preprocessing
+2024-05-09 11:33:58,244 - INFO - Text preprocessing completed successfully
+2024-05-09 11:33:58,245 - INFO - Data preprocessing completed
+2024-05-09 11:33:58,245 - INFO - Vectorizing with tfidf...
+2024-05-09 11:33:58,576 - INFO - Training LR model with hyperparameter tuning...
+2024-05-09 11:34:03,833 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:34:03,833 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-09 11:36:02,007 - INFO - Main process started
+2024-05-09 11:36:02,075 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-09 11:36:02,075 - INFO - Data loaded successfully
+2024-05-09 11:36:02,077 - INFO - Starting text preprocessing
+2024-05-09 11:36:07,130 - INFO - Text preprocessing completed successfully
+2024-05-09 11:36:07,130 - INFO - Data preprocessing completed
+2024-05-09 11:36:07,130 - INFO - Vectorizing with tfidf...
+2024-05-09 11:36:07,420 - INFO - Training LR model with hyperparameter tuning...
+2024-05-09 11:36:12,534 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:36:12,534 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-09 11:36:35,475 - INFO - Main process started
+2024-05-09 11:36:35,527 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-09 11:36:35,528 - INFO - Data loaded successfully
+2024-05-09 11:36:35,529 - INFO - Starting text preprocessing
+2024-05-09 11:36:40,162 - INFO - Text preprocessing completed successfully
+2024-05-09 11:36:40,162 - INFO - Data preprocessing completed
+2024-05-09 11:36:40,163 - INFO - Vectorizing with tfidf...
+2024-05-09 11:36:40,485 - INFO - Training LR model with hyperparameter tuning...
+2024-05-09 11:36:45,219 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:36:45,220 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-09 11:36:45,243 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 11:36:45,243 - INFO - Training DT model with hyperparameter tuning...
+2024-05-09 11:37:16,483 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:37:16,483 - INFO - Best parameters for dt: {'max_depth': 20, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2024-05-09 11:37:16,507 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 11:37:16,507 - INFO - Training RF model with hyperparameter tuning...
+2024-05-09 11:40:42,123 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:40:42,127 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 100}
+2024-05-09 11:40:42,267 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 11:40:42,267 - INFO - Training AB model with hyperparameter tuning...
+2024-05-09 11:44:47,138 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:44:47,141 - INFO - Best parameters for ab: {'learning_rate': 1.0, 'n_estimators': 200}
+2024-05-09 11:44:48,048 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 11:44:48,048 - INFO - Training NB model with hyperparameter tuning...
+2024-05-09 11:44:48,379 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:44:48,380 - INFO - Best parameters for nb: {}
+2024-05-09 11:44:48,398 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 11:44:48,401 - INFO - Vectorizing with bow...
+2024-05-09 11:44:49,079 - INFO - Training LR model with hyperparameter tuning...
+2024-05-09 11:44:57,780 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:44:57,780 - INFO - Best parameters for lr: {'C': 0.1, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-09 11:44:57,799 - INFO - BoW models trained and evaluated successfully
+2024-05-09 11:44:57,799 - INFO - Training DT model with hyperparameter tuning...
+2024-05-09 11:45:19,152 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:45:19,152 - INFO - Best parameters for dt: {'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2024-05-09 11:45:19,170 - INFO - BoW models trained and evaluated successfully
+2024-05-09 11:45:19,170 - INFO - Training RF model with hyperparameter tuning...
+2024-05-09 11:49:17,493 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:49:17,503 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100}
+2024-05-09 11:49:17,767 - INFO - BoW models trained and evaluated successfully
+2024-05-09 11:49:17,768 - INFO - Training AB model with hyperparameter tuning...
+2024-05-09 11:51:58,794 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:51:58,801 - INFO - Best parameters for ab: {'learning_rate': 1.0, 'n_estimators': 200}
+2024-05-09 11:51:59,431 - INFO - BoW models trained and evaluated successfully
+2024-05-09 11:51:59,431 - INFO - Training NB model with hyperparameter tuning...
+2024-05-09 11:51:59,758 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:51:59,758 - INFO - Best parameters for nb: {}
+2024-05-09 11:51:59,808 - INFO - BoW models trained and evaluated successfully
+2024-05-09 11:53:57,304 - INFO - Main process started
+2024-05-09 11:53:57,365 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-09 11:53:57,365 - INFO - Data loaded successfully
+2024-05-09 11:53:57,367 - INFO - Starting text preprocessing
+2024-05-09 11:54:02,978 - INFO - Text preprocessing completed successfully
+2024-05-09 11:54:02,979 - INFO - Data preprocessing completed
+2024-05-09 11:54:02,979 - INFO - Vectorizing with tfidf...
+2024-05-09 11:54:03,360 - INFO - Training LR model with hyperparameter tuning...
+2024-05-09 11:54:08,713 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:54:08,713 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-09 11:54:08,737 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 11:54:08,738 - INFO - Training DT model with hyperparameter tuning...
+2024-05-09 11:54:37,944 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:54:37,944 - INFO - Best parameters for dt: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5}
+2024-05-09 11:54:37,963 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 11:54:37,963 - INFO - Training RF model with hyperparameter tuning...
+2024-05-09 11:58:16,610 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 11:58:16,612 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 200}
+2024-05-09 11:58:16,774 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 11:58:16,775 - INFO - Training AB model with hyperparameter tuning...
+2024-05-09 12:02:12,633 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 12:02:12,636 - INFO - Best parameters for ab: {'learning_rate': 1.0, 'n_estimators': 200}
+2024-05-09 12:02:13,614 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 12:02:13,614 - INFO - Training NB model with hyperparameter tuning...
+2024-05-09 12:02:13,981 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 12:02:13,981 - INFO - Best parameters for nb: {}
+2024-05-09 12:02:14,089 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 12:02:14,096 - INFO - Vectorizing with bow...
+2024-05-09 12:02:14,971 - INFO - Training LR model with hyperparameter tuning...
+2024-05-09 12:02:22,480 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 12:02:22,480 - INFO - Best parameters for lr: {'C': 0.1, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-09 12:02:22,497 - INFO - BoW models trained and evaluated successfully
+2024-05-09 12:02:22,497 - INFO - Training DT model with hyperparameter tuning...
+2024-05-09 12:02:41,259 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 12:02:41,259 - INFO - Best parameters for dt: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5}
+2024-05-09 12:02:41,279 - INFO - BoW models trained and evaluated successfully
+2024-05-09 12:02:41,279 - INFO - Training RF model with hyperparameter tuning...
+2024-05-09 12:16:38,661 - INFO - Main process started
+2024-05-09 12:16:38,719 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-09 12:16:38,719 - INFO - Data loaded successfully
+2024-05-09 12:16:38,722 - INFO - Starting text preprocessing
+2024-05-09 12:16:56,825 - INFO - Main process started
+2024-05-09 12:16:56,892 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-09 12:16:56,892 - INFO - Data loaded successfully
+2024-05-09 12:16:56,894 - INFO - Starting text preprocessing
+2024-05-09 12:17:04,648 - INFO - Text preprocessing completed successfully
+2024-05-09 12:17:04,650 - INFO - Data preprocessing completed
+2024-05-09 12:17:04,650 - INFO - Vectorizing with tfidf...
+2024-05-09 12:17:05,061 - INFO - Training LR model with hyperparameter tuning...
+2024-05-09 12:17:12,739 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 12:17:12,739 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-09 12:17:12,783 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 12:17:12,784 - INFO - Training DT model with hyperparameter tuning...
+2024-05-09 12:17:49,355 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 12:17:49,355 - INFO - Best parameters for dt: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2024-05-09 12:17:49,418 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 12:17:49,419 - INFO - Training RF model with hyperparameter tuning...
+2024-05-09 12:21:49,294 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 12:21:49,297 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 200}
+2024-05-09 12:21:49,539 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 12:21:49,539 - INFO - Training AB model with hyperparameter tuning...
+2024-05-09 12:26:27,580 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 12:26:27,585 - INFO - Best parameters for ab: {'learning_rate': 1.0, 'n_estimators': 200}
+2024-05-09 12:26:29,056 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 12:26:29,057 - INFO - Training NB model with hyperparameter tuning...
+2024-05-09 12:26:29,798 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 12:26:29,798 - INFO - Best parameters for nb: {}
+2024-05-09 12:26:29,832 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 12:26:29,839 - INFO - Vectorizing with bow...
+2024-05-09 12:26:30,664 - INFO - Training LR model with hyperparameter tuning...
+2024-05-09 12:26:39,085 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 12:26:39,085 - INFO - Best parameters for lr: {'C': 0.1, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-09 12:26:39,100 - INFO - BoW models trained and evaluated successfully
+2024-05-09 12:26:39,101 - INFO - Training DT model with hyperparameter tuning...
+2024-05-09 12:27:07,601 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 12:27:07,601 - INFO - Best parameters for dt: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 10}
+2024-05-09 12:27:07,648 - INFO - BoW models trained and evaluated successfully
+2024-05-09 12:27:07,648 - INFO - Training RF model with hyperparameter tuning...
+2024-05-09 12:30:53,651 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 12:30:53,654 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}
+2024-05-09 12:30:53,806 - INFO - BoW models trained and evaluated successfully
+2024-05-09 12:30:53,806 - INFO - Training AB model with hyperparameter tuning...
+2024-05-09 12:33:33,379 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 12:33:33,382 - INFO - Best parameters for ab: {'learning_rate': 1.0, 'n_estimators': 200}
+2024-05-09 12:33:34,284 - INFO - BoW models trained and evaluated successfully
+2024-05-09 12:33:34,285 - INFO - Training NB model with hyperparameter tuning...
+2024-05-09 12:33:34,719 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 12:33:34,719 - INFO - Best parameters for nb: {}
+2024-05-09 12:33:34,748 - INFO - BoW models trained and evaluated successfully
+2024-05-09 12:36:55,006 - INFO - Main process started
+2024-05-09 12:36:55,065 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-09 12:36:55,065 - INFO - Data loaded successfully
+2024-05-09 12:36:55,067 - INFO - Starting text preprocessing
+2024-05-09 12:36:59,906 - INFO - Text preprocessing completed successfully
+2024-05-09 12:36:59,906 - INFO - Data preprocessing completed
+2024-05-09 12:36:59,906 - INFO - Vectorizing with tfidf...
+2024-05-09 12:37:00,206 - INFO - Training LR model with hyperparameter tuning...
+2024-05-09 12:37:05,138 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 12:37:05,138 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-09 12:38:29,306 - INFO - Main process started
+2024-05-09 12:38:29,370 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-09 12:38:29,370 - INFO - Data loaded successfully
+2024-05-09 12:38:29,372 - INFO - Starting text preprocessing
+2024-05-09 12:38:34,063 - INFO - Text preprocessing completed successfully
+2024-05-09 12:38:34,063 - INFO - Data preprocessing completed
+2024-05-09 12:38:34,063 - INFO - Vectorizing with tfidf...
+2024-05-09 12:38:34,347 - INFO - Training LR model with hyperparameter tuning...
+2024-05-09 12:38:39,528 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 12:38:39,528 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-09 12:38:39,570 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 12:38:39,570 - INFO - Training DT model with hyperparameter tuning...
+2024-05-09 12:39:10,535 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 12:39:10,537 - INFO - Best parameters for dt: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5}
+2024-05-09 12:39:10,579 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 12:39:10,579 - INFO - Training RF model with hyperparameter tuning...
+2024-05-09 12:42:20,277 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 12:42:20,277 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}
+2024-05-09 12:42:20,455 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 12:42:20,455 - INFO - Training AB model with hyperparameter tuning...
+2024-05-09 12:46:51,963 - INFO - Main process started
+2024-05-09 12:46:52,032 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-09 12:46:52,032 - INFO - Data loaded successfully
+2024-05-09 12:46:52,035 - INFO - Starting text preprocessing
+2024-05-09 12:46:57,969 - INFO - Text preprocessing completed successfully
+2024-05-09 12:46:57,969 - INFO - Data preprocessing completed
+2024-05-09 12:46:57,970 - INFO - Vectorizing with tfidf...
+2024-05-09 12:46:58,264 - INFO - Training LR model with hyperparameter tuning...
+2024-05-09 12:47:03,400 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 12:47:03,400 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-09 12:47:03,424 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 12:47:03,424 - INFO - Training DT model with hyperparameter tuning...
+2024-05-09 12:47:33,942 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 12:47:33,942 - INFO - Best parameters for dt: {'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 5}
+2024-05-09 12:47:33,968 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 12:47:33,968 - INFO - Training RF model with hyperparameter tuning...
+2024-05-09 12:50:47,988 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 12:50:47,990 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}
+2024-05-09 12:50:48,258 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 12:50:48,258 - INFO - Training AB model with hyperparameter tuning...
+2024-05-09 12:54:31,501 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 12:54:31,504 - INFO - Best parameters for ab: {'learning_rate': 1.0, 'n_estimators': 200}
+2024-05-09 12:54:32,550 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 12:54:32,550 - INFO - Training NB model with hyperparameter tuning...
+2024-05-09 12:54:32,846 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 12:54:32,848 - INFO - Best parameters for nb: {}
+2024-05-09 12:54:32,878 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 12:54:32,880 - INFO - Vectorizing with bow...
+2024-05-09 12:54:33,492 - INFO - Training LR model with hyperparameter tuning...
+2024-05-09 12:54:41,145 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 12:54:41,145 - INFO - Best parameters for lr: {'C': 0.1, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-09 12:54:41,169 - INFO - BoW models trained and evaluated successfully
+2024-05-09 12:54:41,169 - INFO - Training DT model with hyperparameter tuning...
+2024-05-09 12:55:00,901 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 12:55:00,901 - INFO - Best parameters for dt: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 10}
+2024-05-09 12:55:00,919 - INFO - BoW models trained and evaluated successfully
+2024-05-09 12:55:00,919 - INFO - Training RF model with hyperparameter tuning...
+2024-05-09 12:58:11,013 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 12:58:11,016 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 200}
+2024-05-09 12:58:11,209 - INFO - BoW models trained and evaluated successfully
+2024-05-09 12:58:11,209 - INFO - Training AB model with hyperparameter tuning...
+2024-05-09 13:00:37,895 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 13:00:37,897 - INFO - Best parameters for ab: {'learning_rate': 1.0, 'n_estimators': 200}
+2024-05-09 13:00:38,476 - INFO - BoW models trained and evaluated successfully
+2024-05-09 13:00:38,476 - INFO - Training NB model with hyperparameter tuning...
+2024-05-09 13:00:38,712 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 13:00:38,712 - INFO - Best parameters for nb: {}
+2024-05-09 13:00:38,730 - INFO - BoW models trained and evaluated successfully
+2024-05-09 15:55:14,162 - INFO - Main process started
+2024-05-09 15:55:14,255 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-09 15:55:14,255 - INFO - Data loaded successfully
+2024-05-09 15:55:14,279 - INFO - Starting text preprocessing
+2024-05-09 15:55:22,419 - INFO - Text preprocessing completed successfully
+2024-05-09 15:55:22,419 - INFO - Data preprocessing completed
+2024-05-09 15:55:22,421 - INFO - Vectorizing with tfidf...
+2024-05-09 15:55:23,596 - INFO - Training LR model with hyperparameter tuning...
+2024-05-09 15:55:32,984 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 15:55:32,984 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-09 15:55:33,048 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 15:55:33,048 - INFO - Training DT model with hyperparameter tuning...
+2024-05-09 15:56:11,985 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 15:56:11,985 - INFO - Best parameters for dt: {'max_depth': None, 'min_samples_leaf': 2, 'min_samples_split': 2}
+2024-05-09 15:56:12,011 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 15:56:12,013 - INFO - Training RF model with hyperparameter tuning...
+2024-05-09 15:59:31,205 - INFO - Training completed with hyperparameter tuning.
+2024-05-09 15:59:31,208 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 10, 'n_estimators': 200}
+2024-05-09 15:59:31,375 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-09 15:59:31,375 - INFO - Training AB model with hyperparameter tuning...
+2024-05-15 10:30:08,179 - INFO - Main process started
+2024-05-15 10:30:08,281 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-15 10:30:08,281 - INFO - Data loaded successfully
+2024-05-15 10:30:08,283 - INFO - Starting text preprocessing
+2024-05-15 10:30:16,000 - INFO - Text preprocessing completed successfully
+2024-05-15 10:30:16,018 - INFO - Data preprocessing completed
+2024-05-15 10:30:16,019 - INFO - Vectorizing with tfidf...
+2024-05-15 10:30:16,451 - INFO - Training LR model with hyperparameter tuning...
+2024-05-15 10:30:24,126 - INFO - Training completed with hyperparameter tuning.
+2024-05-15 10:30:24,126 - INFO - Best parameters for lr: {'C': 10.0, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-15 10:30:24,152 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-15 10:30:24,153 - INFO - Training DT model with hyperparameter tuning...
+2024-05-15 10:31:02,955 - INFO - Training completed with hyperparameter tuning.
+2024-05-15 10:31:02,955 - INFO - Best parameters for dt: {'max_depth': 20, 'min_samples_leaf': 1, 'min_samples_split': 2}
+2024-05-15 10:31:03,016 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-15 10:31:03,016 - INFO - Training RF model with hyperparameter tuning...
+2024-05-15 10:35:06,310 - INFO - Training completed with hyperparameter tuning.
+2024-05-15 10:35:06,313 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 5, 'n_estimators': 100}
+2024-05-15 10:35:06,500 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-15 10:35:06,500 - INFO - Training AB model with hyperparameter tuning...
+2024-05-15 10:40:34,679 - INFO - Training completed with hyperparameter tuning.
+2024-05-15 10:40:34,682 - INFO - Best parameters for ab: {'learning_rate': 1.0, 'n_estimators': 200}
+2024-05-15 10:40:36,029 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-15 10:40:36,030 - INFO - Training NB model with hyperparameter tuning...
+2024-05-15 10:40:36,444 - INFO - Training completed with hyperparameter tuning.
+2024-05-15 10:40:36,444 - INFO - Best parameters for nb: {}
+2024-05-15 10:40:36,475 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-15 10:40:36,481 - INFO - Vectorizing with bow...
+2024-05-15 10:40:37,395 - INFO - Training LR model with hyperparameter tuning...
+2024-05-15 10:40:46,904 - INFO - Training completed with hyperparameter tuning.
+2024-05-15 10:40:46,905 - INFO - Best parameters for lr: {'C': 0.1, 'max_iter': 100, 'multi_class': 'ovr', 'penalty': 'l2', 'solver': 'liblinear'}
+2024-05-15 10:40:46,934 - INFO - BoW models trained and evaluated successfully
+2024-05-15 10:40:46,934 - INFO - Training DT model with hyperparameter tuning...
+2024-05-15 10:41:07,591 - INFO - Training completed with hyperparameter tuning.
+2024-05-15 10:41:07,591 - INFO - Best parameters for dt: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 10}
+2024-05-15 10:41:07,613 - INFO - BoW models trained and evaluated successfully
+2024-05-15 10:41:07,613 - INFO - Training RF model with hyperparameter tuning...
+2024-05-15 10:44:48,112 - INFO - Training completed with hyperparameter tuning.
+2024-05-15 10:44:48,116 - INFO - Best parameters for rf: {'max_depth': None, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 50}
+2024-05-15 10:44:48,318 - INFO - BoW models trained and evaluated successfully
+2024-05-15 10:44:48,319 - INFO - Training AB model with hyperparameter tuning...
+2024-05-15 10:49:04,234 - INFO - Training completed with hyperparameter tuning.
+2024-05-15 10:49:04,239 - INFO - Best parameters for ab: {'learning_rate': 1.0, 'n_estimators': 200}
+2024-05-15 10:49:04,844 - INFO - BoW models trained and evaluated successfully
+2024-05-15 10:49:04,845 - INFO - Training NB model with hyperparameter tuning...
+2024-05-15 10:49:05,473 - INFO - Training completed with hyperparameter tuning.
+2024-05-15 10:49:05,473 - INFO - Best parameters for nb: {}
+2024-05-15 10:49:05,495 - INFO - BoW models trained and evaluated successfully
+2024-05-15 11:25:54,945 - INFO - Main process started
+2024-05-15 11:25:55,081 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-15 11:25:55,081 - INFO - Data loaded successfully
+2024-05-15 11:25:55,095 - INFO - Starting text preprocessing
+2024-05-15 11:26:01,119 - INFO - Text preprocessing completed successfully
+2024-05-15 11:26:01,149 - INFO - Data preprocessing completed
+2024-05-15 11:32:01,145 - INFO - Main process started
+2024-05-15 11:32:01,219 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-15 11:32:01,219 - INFO - Data loaded successfully
+2024-05-15 11:32:01,221 - INFO - Starting text preprocessing
+2024-05-15 11:32:06,074 - INFO - Text preprocessing completed successfully
+2024-05-15 11:32:06,085 - INFO - Data preprocessing completed
+2024-05-15 11:32:06,097 - INFO - Vectorizing with tfidf...
+2024-05-15 11:32:06,419 - INFO - Training LR model with hyperparameter tuning...
+2024-05-15 11:44:13,462 - INFO - Main process started
+2024-05-15 11:44:13,523 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-15 11:44:13,523 - INFO - Data loaded successfully
+2024-05-15 11:44:13,525 - INFO - Starting text preprocessing
+2024-05-15 11:44:18,707 - INFO - Text preprocessing completed successfully
+2024-05-15 11:44:18,719 - INFO - Data preprocessing completed
+2024-05-15 11:44:18,731 - INFO - Vectorizing with tfidf...
+2024-05-15 11:44:19,010 - INFO - Training LR model with hyperparameter tuning...
+2024-05-15 11:44:44,609 - INFO - Training completed with Bayesian optimization.
+2024-05-15 11:44:44,609 - INFO - Best parameters for lr: OrderedDict([('C', 10.0), ('max_iter', 200), ('penalty', 'l2'), ('solver', 'liblinear')])
+2024-05-15 11:44:44,633 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-15 11:44:44,633 - INFO - Training DT model with hyperparameter tuning...
+2024-05-15 11:45:44,823 - INFO - Training completed with Bayesian optimization.
+2024-05-15 11:45:44,823 - INFO - Best parameters for dt: OrderedDict([('max_depth', 38), ('min_samples_leaf', 1), ('min_samples_split', 2)])
+2024-05-15 11:45:44,850 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-15 11:45:44,851 - INFO - Training RF model with hyperparameter tuning...
+2024-05-15 11:48:04,775 - INFO - Training completed with Bayesian optimization.
+2024-05-15 11:48:04,775 - INFO - Best parameters for rf: OrderedDict([('max_depth', 46), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 142)])
+2024-05-15 11:48:04,842 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-15 11:48:04,842 - INFO - Training AB model with hyperparameter tuning...
+2024-05-15 12:13:19,485 - INFO - Training completed with Bayesian optimization.
+2024-05-15 12:13:19,485 - INFO - Best parameters for ab: OrderedDict([('learning_rate', 0.8119795128807802), ('n_estimators', 199)])
+2024-05-15 12:13:20,310 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-15 12:13:20,310 - INFO - Training NB model with hyperparameter tuning...
+2024-05-15 12:13:32,865 - INFO - Training completed with Bayesian optimization.
+2024-05-15 12:13:32,865 - INFO - Best parameters for nb: OrderedDict([('alpha', 0.011085340757446337)])
+2024-05-15 12:13:32,882 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-15 12:13:32,883 - INFO - Vectorizing with bow...
+2024-05-15 12:13:33,288 - ERROR - Model name alpha is not recognized.
+2024-05-15 12:13:33,292 - INFO - BoW models trained and evaluated successfully
+2024-05-15 12:15:51,200 - INFO - Main process started
+2024-05-15 12:15:51,260 - INFO - Data loaded successfully from /Users/madhu/OneDrive/Desktop/sentiment_classification/Dataset/train.csv
+2024-05-15 12:15:51,261 - INFO - Data loaded successfully
+2024-05-15 12:15:51,262 - INFO - Starting text preprocessing
+2024-05-15 12:15:56,157 - INFO - Text preprocessing completed successfully
+2024-05-15 12:15:56,172 - INFO - Data preprocessing completed
+2024-05-15 12:15:56,183 - INFO - Vectorizing with tfidf...
+2024-05-15 12:15:56,513 - INFO - Training LR model with hyperparameter tuning...
+2024-05-15 12:16:22,602 - INFO - Training completed with Bayesian optimization.
+2024-05-15 12:16:22,602 - INFO - Best parameters for lr: OrderedDict([('C', 9.241255187462722), ('max_iter', 138), ('penalty', 'l2'), ('solver', 'liblinear')])
+2024-05-15 12:16:22,627 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-15 12:16:22,627 - INFO - Training DT model with hyperparameter tuning...
+2024-05-15 12:17:22,476 - INFO - Training completed with Bayesian optimization.
+2024-05-15 12:17:22,476 - INFO - Best parameters for dt: OrderedDict([('max_depth', 50), ('min_samples_leaf', 2), ('min_samples_split', 2)])
+2024-05-15 12:17:22,496 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-15 12:17:22,497 - INFO - Training RF model with hyperparameter tuning...
+2024-05-15 12:19:28,436 - INFO - Training completed with Bayesian optimization.
+2024-05-15 12:19:28,436 - INFO - Best parameters for rf: OrderedDict([('max_depth', 50), ('min_samples_leaf', 1), ('min_samples_split', 2), ('n_estimators', 200)])
+2024-05-15 12:19:28,544 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-15 12:19:28,544 - INFO - Training AB model with hyperparameter tuning...
+2024-05-15 12:39:58,708 - INFO - Training completed with Bayesian optimization.
+2024-05-15 12:39:58,708 - INFO - Best parameters for ab: OrderedDict([('learning_rate', 0.9950356461985991), ('n_estimators', 198)])
+2024-05-15 12:39:59,504 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-15 12:39:59,504 - INFO - Training NB model with hyperparameter tuning...
+2024-05-15 12:40:11,520 - INFO - Training completed with Bayesian optimization.
+2024-05-15 12:40:11,520 - INFO - Best parameters for nb: OrderedDict([('alpha', 0.01)])
+2024-05-15 12:40:11,536 - INFO - TF-IDF models trained and evaluated successfully
+2024-05-15 12:40:11,537 - INFO - Vectorizing with bow...
+2024-05-15 12:40:11,900 - ERROR - Model name alpha is not recognized.
+2024-05-15 12:40:11,903 - INFO - BoW models trained and evaluated successfully

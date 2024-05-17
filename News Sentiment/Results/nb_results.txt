@@ -1,0 +1,158 @@
+Evaluation results for nb:
+Hyperparameter Tuning Results for nb:
+Parameters, Mean Test Score, Rank
+{}, 0.9350, 1
+Accuracy: 0.9500, Precision: 0.9525, Recall: 0.9500, F1 Score: 0.9499
+              precision    recall  f1-score   support
+
+         0.0       0.92      0.99      0.95       160
+         1.0       0.99      0.91      0.95       160
+
+    accuracy                           0.95       320
+   macro avg       0.95      0.95      0.95       320
+weighted avg       0.95      0.95      0.95       320
+
+[[158   2]
+ [ 14 146]]
+Evaluation results for nb:
+Hyperparameter Tuning Results for nb:
+Parameters, Mean Test Score, Rank
+{}, 0.8716, 1
+Accuracy: 0.9437, Precision: 0.9438, Recall: 0.9437, F1 Score: 0.9437
+              precision    recall  f1-score   support
+
+         0.0       0.95      0.94      0.94       160
+         1.0       0.94      0.95      0.94       160
+
+    accuracy                           0.94       320
+   macro avg       0.94      0.94      0.94       320
+weighted avg       0.94      0.94      0.94       320
+
+[[150  10]
+ [  8 152]]
+Evaluation results for nb:
+Hyperparameter Tuning Results for nb:
+Parameters, Mean Test Score, Rank
+{}, 0.9350, 1
+Accuracy: 0.9500, Precision: 0.9525, Recall: 0.9500, F1 Score: 0.9499
+              precision    recall  f1-score   support
+
+         0.0       0.92      0.99      0.95       160
+         1.0       0.99      0.91      0.95       160
+
+    accuracy                           0.95       320
+   macro avg       0.95      0.95      0.95       320
+weighted avg       0.95      0.95      0.95       320
+
+[[158   2]
+ [ 14 146]]
+Evaluation results for nb:
+Hyperparameter Tuning Results for nb:
+Parameters, Mean Test Score, Rank
+{}, 0.8716, 1
+Accuracy: 0.9437, Precision: 0.9438, Recall: 0.9437, F1 Score: 0.9437
+              precision    recall  f1-score   support
+
+         0.0       0.95      0.94      0.94       160
+         1.0       0.94      0.95      0.94       160
+
+    accuracy                           0.94       320
+   macro avg       0.94      0.94      0.94       320
+weighted avg       0.94      0.94      0.94       320
+
+[[150  10]
+ [  8 152]]
+Evaluation results for nb:
+Hyperparameter Tuning Results for nb:
+Parameters, Mean Test Score, Rank
+OrderedDict([('alpha', 0.25567753314196107)]), 0.9507, 23
+OrderedDict([('alpha', 0.021294571103171057)]), 0.9718, 11
+OrderedDict([('alpha', 0.2991024880204252)]), 0.9484, 24
+OrderedDict([('alpha', 0.012233927861319955)]), 0.9765, 7
+OrderedDict([('alpha', 0.011085340757446337)]), 0.9773, 1
+OrderedDict([('alpha', 0.02515336477859249)]), 0.9710, 12
+OrderedDict([('alpha', 0.8804442587896758)]), 0.9350, 29
+OrderedDict([('alpha', 0.5050119883504356)]), 0.9413, 26
+OrderedDict([('alpha', 0.3097209985478547)]), 0.9484, 24
+OrderedDict([('alpha', 0.6114924834495717)]), 0.9390, 28
+OrderedDict([('alpha', 0.06731227203399985)]), 0.9632, 17
+OrderedDict([('alpha', 0.01)]), 0.9773, 1
+OrderedDict([('alpha', 0.8199621738509494)]), 0.9350, 29
+OrderedDict([('alpha', 0.01000622589509855)]), 0.9773, 1
+OrderedDict([('alpha', 0.13970581205677704)]), 0.9554, 20
+OrderedDict([('alpha', 0.03873027580023985)]), 0.9648, 14
+OrderedDict([('alpha', 0.010003947978072063)]), 0.9773, 1
+OrderedDict([('alpha', 0.015204863969951559)]), 0.9750, 8
+OrderedDict([('alpha', 0.09434273496255383)]), 0.9593, 19
+OrderedDict([('alpha', 0.014629674653648657)]), 0.9750, 8
+OrderedDict([('alpha', 0.038647098320229105)]), 0.9648, 14
+OrderedDict([('alpha', 0.9323284889777439)]), 0.9350, 29
+OrderedDict([('alpha', 0.5841772166836685)]), 0.9397, 27
+OrderedDict([('alpha', 0.05103789835877079)]), 0.9640, 16
+OrderedDict([('alpha', 0.8717116830824627)]), 0.9350, 29
+OrderedDict([('alpha', 0.03391161275041858)]), 0.9679, 13
+OrderedDict([('alpha', 0.18364229090790515)]), 0.9530, 22
+OrderedDict([('alpha', 0.010520043817134558)]), 0.9773, 1
+OrderedDict([('alpha', 0.010555431044910545)]), 0.9773, 1
+OrderedDict([('alpha', 0.018063803968360624)]), 0.9734, 10
+OrderedDict([('alpha', 0.11388632144322287)]), 0.9554, 20
+OrderedDict([('alpha', 0.07890767679858836)]), 0.9609, 18
+Accuracy: 0.9781, Precision: 0.9781, Recall: 0.9781, F1 Score: 0.9781
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.98      0.98       160
+         1.0       0.98      0.97      0.98       160
+
+    accuracy                           0.98       320
+   macro avg       0.98      0.98      0.98       320
+weighted avg       0.98      0.98      0.98       320
+
+[[157   3]
+ [  4 156]]
+Evaluation results for nb:
+Hyperparameter Tuning Results for nb:
+Parameters, Mean Test Score, Rank
+OrderedDict([('alpha', 0.16556834594836353)]), 0.9554, 23
+OrderedDict([('alpha', 0.016220312892711832)]), 0.9742, 9
+OrderedDict([('alpha', 0.017444205881426103)]), 0.9734, 10
+OrderedDict([('alpha', 0.31601758042317574)]), 0.9476, 27
+OrderedDict([('alpha', 0.07286565520653689)]), 0.9609, 18
+OrderedDict([('alpha', 0.20939969373340944)]), 0.9530, 24
+OrderedDict([('alpha', 0.36498015763182207)]), 0.9476, 27
+OrderedDict([('alpha', 0.0952547620266828)]), 0.9585, 20
+OrderedDict([('alpha', 0.3056404111165786)]), 0.9484, 26
+OrderedDict([('alpha', 0.4088804017802134)]), 0.9460, 29
+OrderedDict([('alpha', 0.01)]), 0.9773, 1
+OrderedDict([('alpha', 0.010007970811988395)]), 0.9773, 1
+OrderedDict([('alpha', 0.9991219123233729)]), 0.9350, 31
+OrderedDict([('alpha', 0.010000411674227636)]), 0.9773, 1
+OrderedDict([('alpha', 0.010017832266583938)]), 0.9773, 1
+OrderedDict([('alpha', 0.028212873085902025)]), 0.9687, 14
+OrderedDict([('alpha', 0.01401051139544738)]), 0.9750, 7
+OrderedDict([('alpha', 0.10261736954085862)]), 0.9577, 21
+OrderedDict([('alpha', 0.017595276335399496)]), 0.9734, 10
+OrderedDict([('alpha', 0.025072271513210932)]), 0.9710, 12
+OrderedDict([('alpha', 0.0869027123933565)]), 0.9601, 19
+OrderedDict([('alpha', 0.011502792936366737)]), 0.9765, 6
+OrderedDict([('alpha', 0.5799804619943316)]), 0.9397, 30
+OrderedDict([('alpha', 0.014964622860224304)]), 0.9750, 7
+OrderedDict([('alpha', 0.024618947748761402)]), 0.9710, 12
+OrderedDict([('alpha', 0.07090344718309435)]), 0.9616, 17
+OrderedDict([('alpha', 0.2078065132895062)]), 0.9530, 24
+OrderedDict([('alpha', 0.0648762724073584)]), 0.9632, 16
+OrderedDict([('alpha', 0.010019330050987619)]), 0.9773, 1
+OrderedDict([('alpha', 0.05628329426161348)]), 0.9640, 15
+OrderedDict([('alpha', 0.8329366742259755)]), 0.9350, 31
+OrderedDict([('alpha', 0.09833513876667202)]), 0.9577, 21
+Accuracy: 0.9781, Precision: 0.9781, Recall: 0.9781, F1 Score: 0.9781
+              precision    recall  f1-score   support
+
+         0.0       0.98      0.98      0.98       160
+         1.0       0.98      0.97      0.98       160
+
+    accuracy                           0.98       320
+   macro avg       0.98      0.98      0.98       320
+weighted avg       0.98      0.98      0.98       320
+
+[[157   3]
+ [  4 156]]
